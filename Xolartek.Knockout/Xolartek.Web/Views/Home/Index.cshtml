@@ -1,4 +1,6 @@
-﻿
+﻿@using Xolartek.Web.Extensions
+@using Xolartek.Web.Models
+@model ViewModel
 @{
     ViewBag.Title = "Home";
 }
@@ -15,8 +17,25 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12">
-            <div id="pnlExample"></div>
+        <div class="col-md-6">
+            <div class="form-group row">
+                @Html.LabelFor(model => model.Firstname, new { @class = "col-md-4 col-form-label" })
+                <div class="col-md-7">
+                    @Html.TextBoxFor(model => model.Firstname, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(model => model.Lastname, new { @class = "col-md-4 col-form-label" })
+                <div class="col-md-7">
+                    @Html.KoTextBoxFor(model => model.Lastname, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(model => model.Sex, new { @class = "col-md-4 col-form-label" })
+                <div class="col-md-7">
+                   @Html.KoDropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(Gender))), new { @class = "form-control" }, new { optionsCaption = "' '" })
+                </div>
+            </div>
         </div>
     </div>
 </div>
