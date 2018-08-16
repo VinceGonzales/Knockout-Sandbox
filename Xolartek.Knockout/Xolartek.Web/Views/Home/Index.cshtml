@@ -5,7 +5,7 @@
     ViewBag.Title = "Home";
 }
 @section header {
-
+    
 }
 <div class="container">
     <div class="row">
@@ -33,12 +33,17 @@
             <div class="form-group row">
                 @Html.LabelFor(model => model.Sex, new { @class = "col-md-4 col-form-label" })
                 <div class="col-md-7">
-                   @Html.KoDropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(Gender))), new { @class = "form-control" }, new { optionsCaption = "' '" })
+                   @Html.KoDropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(Gender))), " ", new { @class = "form-control" })
                 </div>
             </div>
         </div>
     </div>
 </div>
 @section scripts {
-    <script type="text/javascript" src="~/scripts/typescripts/main.js"></script>
+<script>
+    var viewmodel = @Html.Raw(Json.Encode(Model));
+    viewmodel = ko.mapping.fromJS(viewmodel);
+    ko.applyBindings(viewmodel);
+</script>
+<script type="text/javascript" src="~/scripts/typescripts/main.js"></script>
 }

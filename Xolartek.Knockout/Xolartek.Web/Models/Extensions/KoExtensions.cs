@@ -53,7 +53,7 @@ namespace Xolartek.Web.Extensions
                 dataBindAttributes == null ? new RouteValueDictionary() : HtmlHelper.AnonymousObjectToHtmlAttributes(dataBindAttributes),
                 addDefaultBinding);
         }
-
+        
         /// <summary>
         /// Knockout DropDownListFor internal.
         /// </summary>
@@ -62,6 +62,28 @@ namespace Xolartek.Web.Extensions
             var propName = htmlHelper.NameFor(expression);
             htmlAttributes.AddDataBindAttributeFor(ControlType.DropDown, propName, dataBindAttributes, addDefaultBinding);
             return htmlHelper.DropDownListFor(expression, selectList, htmlAttributes);
+        }
+
+        /// <summary>
+        /// Knockout DropDownListFor with option label.
+        /// </summary>
+        public static MvcHtmlString KoDropDownListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> expression, IEnumerable<SelectListItem> selectList, string optionLabel, Object htmlAttributes = null, object dataBindAttributes = null)
+        {
+            return htmlHelper.KoDropDownListFor(expression,
+                selectList,
+                optionLabel,
+                htmlAttributes == null ? new RouteValueDictionary() : HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes),
+                dataBindAttributes == null ? new RouteValueDictionary() : HtmlHelper.AnonymousObjectToHtmlAttributes(dataBindAttributes));
+        }
+
+        /// <summary>
+        /// Knockout DropDownListFor internal with option label.
+        /// </summary>
+        private static MvcHtmlString KoDropDownListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> expression, IEnumerable<SelectListItem> selectList, string optionLabel, IDictionary<string, object> htmlAttributes, IDictionary<string, object> dataBindAttributes)
+        {
+            var propName = htmlHelper.NameFor(expression);
+            htmlAttributes.AddDataBindAttributeFor(ControlType.DropDown, propName, dataBindAttributes, true);
+            return htmlHelper.DropDownListFor(expression, selectList, optionLabel, htmlAttributes);
         }
         #endregion
 

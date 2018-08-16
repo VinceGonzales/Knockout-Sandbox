@@ -12,6 +12,9 @@ namespace Xolartek.Web.Controllers
         public ActionResult Index()
         {
             ViewModel viewmodel = new ViewModel();
+            viewmodel.Firstname = "LeBron";
+            viewmodel.Lastname = "James";
+            viewmodel.Email = "ljames@acme.com";
             return View(viewmodel);
         }
     }

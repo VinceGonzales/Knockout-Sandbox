@@ -28,6 +28,7 @@ namespace Xolartek.Web
 
             bundles.Add(new ScriptBundle("~/bundles/general").Include(
                       "~/Scripts/knockout-{version}.js",
+                      "~/Scripts/knockout.mapping-latest.js",
                       "~/Scripts/system.js"
                       ));
 
