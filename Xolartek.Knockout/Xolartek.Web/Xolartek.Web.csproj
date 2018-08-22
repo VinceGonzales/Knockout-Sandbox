@@ -236,6 +236,16 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typescripts\app.ts" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xolartek.Core\Xolartek.Core.csproj">
+      <Project>{0ef05002-2213-43bc-8481-2d212cdfc85f}</Project>
+      <Name>Xolartek.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xolartek.ORM\Xolartek.ORM.csproj">
+      <Project>{3760b979-3771-49a6-ac09-d17caeedfc02}</Project>
+      <Name>Xolartek.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
