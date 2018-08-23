@@ -59,9 +59,15 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Migrations" />
+    <Folder Include="Hydrate" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\Initialize.sql" />
     <None Include="Migrations\Create.sql" />
+    <None Include="Hydrate\Materials.sql" />
+    <None Include="Hydrate\Rarities.sql" />
+    <None Include="Hydrate\Traits.sql" />
+    <None Include="Hydrate\WeaponEditions.sql" />
+    <None Include="Hydrate\WeaponTypes.sql" />
   </ItemGroup>
 </Project>
