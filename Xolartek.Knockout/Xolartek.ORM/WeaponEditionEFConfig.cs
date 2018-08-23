@@ -4,22 +4,20 @@ using Xolartek.Core.Fortnite;
 
 namespace Xolartek.ORM
 {
-    public class MaterialEFConfig : EntityTypeConfiguration<Material>
+    public class WeaponEditionEFConfig : EntityTypeConfiguration<WeaponEdition>
     {
-        public MaterialEFConfig()
+        public WeaponEditionEFConfig()
         {
-            ToTable("Materials");
-            HasKey<int>(s => s.Id)
+            ToTable("WeaponEditions");
+            HasKey<int>(t => t.Id)
                 .Property(s => s.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
 
-            HasMany<MaterialCost>(m => m.MaterialCosts)
-                .WithRequired(mc => mc.Material)
-                .HasForeignKey(mc => mc.MaterialId)
+            HasMany<Schematic>(t => t.Schematics)
+                .WithOptional(s => s.WeaponEdition)
+                .HasForeignKey(s => s.WeaponEditionId)
                 .WillCascadeOnDelete(false);
-
-            HasOptional(m => m.Picture);
         }
     }
 }

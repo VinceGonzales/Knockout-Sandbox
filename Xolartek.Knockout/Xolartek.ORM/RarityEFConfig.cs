@@ -4,22 +4,20 @@ using Xolartek.Core.Fortnite;
 
 namespace Xolartek.ORM
 {
-    public class MaterialEFConfig : EntityTypeConfiguration<Material>
+    public class RarityEFConfig : EntityTypeConfiguration<Rarity>
     {
-        public MaterialEFConfig()
+        public RarityEFConfig()
         {
-            ToTable("Materials");
-            HasKey<int>(s => s.Id)
+            ToTable("Rarities");
+            HasKey<int>(t => t.Id)
                 .Property(s => s.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
 
-            HasMany<MaterialCost>(m => m.MaterialCosts)
-                .WithRequired(mc => mc.Material)
-                .HasForeignKey(mc => mc.MaterialId)
+            HasMany<Schematic>(t => t.Schematics)
+                .WithRequired(s => s.Rarity)
+                .HasForeignKey(s => s.RarityId)
                 .WillCascadeOnDelete(false);
-
-            HasOptional(m => m.Picture);
         }
     }
 }

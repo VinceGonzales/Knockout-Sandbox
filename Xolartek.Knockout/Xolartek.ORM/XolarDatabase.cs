@@ -26,6 +26,9 @@ namespace Xolartek.ORM
             modelBuilder.Configurations.Add(new MaterialEFConfig());
             modelBuilder.Configurations.Add(new TraitEFConfig());
             modelBuilder.Configurations.Add(new SchematicEFConfig());
+            modelBuilder.Configurations.Add(new RarityEFConfig());
+            modelBuilder.Configurations.Add(new WeaponEditionEFConfig());
+            modelBuilder.Configurations.Add(new WeaponTypeEFConfig());
         }
     }
 }

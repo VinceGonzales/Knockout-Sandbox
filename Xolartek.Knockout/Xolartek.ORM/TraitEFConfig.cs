@@ -17,7 +17,7 @@ namespace Xolartek.ORM
             HasMany<TraitImpact>(t => t.TraitImpacts)
                 .WithRequired(ti => ti.Trait)
                 .HasForeignKey(ti => ti.TraitId)
-                .WillCascadeOnDelete(true);
+                .WillCascadeOnDelete(false);
 
         }
     }

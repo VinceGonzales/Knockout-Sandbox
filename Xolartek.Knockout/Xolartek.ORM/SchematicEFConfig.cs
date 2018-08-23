@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using Xolartek.Core.Fortnite;
 
@@ -25,11 +24,6 @@ namespace Xolartek.ORM
                 .WithRequired(mc => mc.Schematic)
                 .HasForeignKey(mc => mc.SchematicId)
                 .WillCascadeOnDelete(false);
-
-            HasOptional(s => s.Picture);
-            HasOptional(s => s.WeaponEdition);
-            HasRequired(s => s.WeaponType);
-            HasRequired(s => s.Rarity);
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Xolartek.Core.Fortnite
 {
@@ -7,5 +8,6 @@ namespace Xolartek.Core.Fortnite
     /// </summary>
     public class WeaponType : Trait, ITrait
     {
+        public ICollection<Schematic> Schematics { get; set; }
     }
 }
