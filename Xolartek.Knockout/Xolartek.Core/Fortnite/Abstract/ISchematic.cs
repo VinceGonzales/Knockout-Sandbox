@@ -23,7 +23,7 @@ namespace Xolartek.Core.Fortnite
         ITrait Rarity { get; set; }
         int? PictureId { get; set; }
         IPicture Picture { get; set; }
-        int? WeaponTypeId { get; set; }
+        int WeaponTypeId { get; set; }
         ITrait WeaponType { get; set; }
         int? WeaponEditionId { get; set; }
         ITrait WeaponEdition { get; set; }

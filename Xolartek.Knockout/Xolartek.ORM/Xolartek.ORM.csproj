@@ -49,7 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MaterialEFConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchematicEFConfig.cs" />
+    <Compile Include="TraitEFConfig.cs" />
     <Compile Include="XolarDatabase.cs" />
   </ItemGroup>
   <ItemGroup>

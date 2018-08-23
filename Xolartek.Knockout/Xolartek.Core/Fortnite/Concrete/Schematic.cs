@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 
 namespace Xolartek.Core.Fortnite
 {
+    [DataContract]
     public class Schematic : ISchematic, IWeaponMelee, IWeaponRange, IWeaponTrap
     {
         [Key]
@@ -177,7 +178,7 @@ namespace Xolartek.Core.Fortnite
             }
         }
 
-        public int? WeaponTypeId { get; set; }
+        public int WeaponTypeId { get; set; }
         private ITrait _weaponType;
         [DataMember]
         public WeaponType WeaponType

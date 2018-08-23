@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Xolartek.Core.Fortnite
@@ -11,5 +12,6 @@ namespace Xolartek.Core.Fortnite
         public int Id { get; set; }
         [Required]
         public string Description { get; set; }
+        public ICollection<TraitImpact> TraitImpacts { get; set; }
     }
 }
