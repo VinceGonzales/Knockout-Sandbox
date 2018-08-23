@@ -1,11 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
 namespace Xolartek.Core.Fortnite
 {
-    public class Material : Trait, IMaterial
+    public class Material : IMaterial
     {
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        public string Description { get; set; }
         public int? PictureId { get; set; }
         private IPicture _picture;
         [DataMember]
