@@ -13,5 +13,6 @@ namespace Xolartek.Core.Fortnite
         [Required]
         public string Description { get; set; }
         public ICollection<Schematic> Schematics { get; set; }
+        public ICollection<Hero> Heroes { get; set; }
     }
 }

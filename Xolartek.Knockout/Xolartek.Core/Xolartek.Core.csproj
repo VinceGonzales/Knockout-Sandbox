@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fortnite\Abstract\IHero.cs" />
     <Compile Include="Fortnite\Abstract\IMaterial.cs" />
     <Compile Include="Fortnite\Abstract\IMaterialCost.cs" />
     <Compile Include="Fortnite\Abstract\ISchematic.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Fortnite\Abstract\IWeaponMelee.cs" />
     <Compile Include="Fortnite\Abstract\IWeaponRange.cs" />
     <Compile Include="Fortnite\Abstract\IWeaponTrap.cs" />
+    <Compile Include="Fortnite\Concrete\Hero.cs" />
     <Compile Include="Fortnite\Concrete\Material.cs" />
     <Compile Include="Fortnite\Concrete\MaterialCost.cs" />
     <Compile Include="Fortnite\Concrete\Rarity.cs" />

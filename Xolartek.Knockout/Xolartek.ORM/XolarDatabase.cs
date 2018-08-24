@@ -18,6 +18,7 @@ namespace Xolartek.ORM
         public DbSet<TraitImpact> TraitImpacts { get; set; }
         public DbSet<WeaponEdition> WeaponEditions { get; set; }
         public DbSet<WeaponType> WeaponTypes { get; set; }
+        public DbSet<Hero> Heroes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -29,6 +30,10 @@ namespace Xolartek.ORM
             modelBuilder.Configurations.Add(new RarityEFConfig());
             modelBuilder.Configurations.Add(new WeaponEditionEFConfig());
             modelBuilder.Configurations.Add(new WeaponTypeEFConfig());
+            modelBuilder.Configurations.Add(new HeroEFConfig());
+            modelBuilder.Configurations.Add(new PictureEFConfig());
+            modelBuilder.Configurations.Add(new TraitImpactEFConfig());
+            modelBuilder.Configurations.Add(new MaterialCostEFConfig());
         }
     }
 }

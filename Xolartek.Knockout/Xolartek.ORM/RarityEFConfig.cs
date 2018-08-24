@@ -18,6 +18,11 @@ namespace Xolartek.ORM
                 .WithRequired(s => s.Rarity)
                 .HasForeignKey(s => s.RarityId)
                 .WillCascadeOnDelete(false);
+
+            HasMany<Hero>(t => t.Heroes)
+                .WithRequired(s => s.Rarity)
+                .HasForeignKey(s => s.RarityId)
+                .WillCascadeOnDelete(false);
         }
     }
 }

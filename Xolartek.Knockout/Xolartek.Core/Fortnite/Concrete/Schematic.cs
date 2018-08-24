@@ -100,6 +100,7 @@ namespace Xolartek.Core.Fortnite
             }
         }
 
+        [DataMember]
         public int RarityId { get; set; }
         private ITrait _rarity { get; set; }
         [DataMember]
@@ -126,6 +127,7 @@ namespace Xolartek.Core.Fortnite
             }
         }
 
+        [DataMember]
         public int? PictureId { get; set; }
         private IPicture _picture;
         [DataMember]
@@ -152,6 +154,7 @@ namespace Xolartek.Core.Fortnite
             }
         }
 
+        [DataMember]
         public int? WeaponEditionId { get; set; }
         private ITrait _weaponEdition;
         [DataMember]
@@ -178,6 +181,7 @@ namespace Xolartek.Core.Fortnite
             }
         }
 
+        [DataMember]
         public int WeaponTypeId { get; set; }
         private ITrait _weaponType;
         [DataMember]

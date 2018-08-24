@@ -1,24 +1,17 @@
 using System.ComponentModel.DataAnnotations;
-using System.Runtime.Serialization;
 
 namespace Xolartek.Core.Fortnite
 {
-    [DataContract]
     public class MaterialCost : IMaterialCost
     {
         [Key]
-        [DataMember]
         public int Id { get; set; }
         [Required]
-        [DataMember]
         public int Cost { get; set; }
-        [DataMember]
         public int MaterialId { get; set; }
-        [DataMember]
         public int SchematicId { get; set; }
 
         private IMaterial _material;
-        [DataMember]
         public Material Material
         {
             get
@@ -43,7 +36,6 @@ namespace Xolartek.Core.Fortnite
         }
 
         private ISchematic _schematic;
-        [DataMember]
         public Schematic Schematic
         {
             get

@@ -1,4 +1,5 @@
 using System.Data.Entity.Migrations;
+using Xolartek.Core.Fortnite;
 
 namespace Xolartek.ORM.Migrations
 {
@@ -12,10 +13,15 @@ namespace Xolartek.ORM.Migrations
 
         protected override void Seed(Xolartek.ORM.XolarDatabase context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            if (context.Database.Exists())
+            {
+                context.Rarities.AddOrUpdate(r => r.Description,
+                    new Rarity() { Description = "Common" },
+                    new Rarity() { Description = "Epic" },
+                    new Rarity() { Description = "Legendary" },
+                    new Rarity() { Description = "Mythic" },
+                    new Rarity() { Description = "Rare" });
+            }
         }
     }
 }

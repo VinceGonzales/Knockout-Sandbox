@@ -50,12 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeroEFConfig.cs" />
+    <Compile Include="MaterialCostEFConfig.cs" />
     <Compile Include="MaterialEFConfig.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="PictureEFConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RarityEFConfig.cs" />
     <Compile Include="SchematicEFConfig.cs" />
     <Compile Include="TraitEFConfig.cs" />
+    <Compile Include="TraitImpactEFConfig.cs" />
     <Compile Include="WeaponEditionEFConfig.cs" />
     <Compile Include="WeaponTypeEFConfig.cs" />
     <Compile Include="XolarDatabase.cs" />
