@@ -13,9 +13,9 @@ namespace Xolartek.Web.Controllers
     {
         private Repository repo = new Repository(new XolarDatabase());
         // GET: api/Services
-        public IEnumerable<Xolartek.Core.Fortnite.Rarity> Get()
+        public IEnumerable<Xolartek.Core.Fortnite.Hero> Get()
         {
-            return repo.GetRarities();
+            return repo.GetHeroes();
         }
 
         // GET: api/Services/5
@@ -25,12 +25,13 @@ namespace Xolartek.Web.Controllers
         }
 
         [HttpPost]
-        public void Post(List<HeroVM> heroes)
+        public HttpResponseMessage Post(List<HeroVM> heroes)
         {
             foreach(HeroVM hero in heroes)
             {
                 repo.PostHero(hero);
             }
+            return Request.CreateResponse(HttpStatusCode.OK, "success");
         }
 
         // PUT: api/Services/5
