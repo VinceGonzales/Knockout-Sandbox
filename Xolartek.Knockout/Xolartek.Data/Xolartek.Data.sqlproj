@@ -60,6 +60,7 @@
     <Folder Include="Properties" />
     <Folder Include="Migrations" />
     <Folder Include="Hydrate" />
+    <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\Initialize.sql" />
@@ -69,5 +70,7 @@
     <None Include="Hydrate\Traits.sql" />
     <None Include="Hydrate\WeaponEditions.sql" />
     <None Include="Hydrate\WeaponTypes.sql" />
+    <None Include="StoredProcedures\AddHero.sql" />
+    <None Include="StoredProcedures\AddSchematic.sql" />
   </ItemGroup>
 </Project>
