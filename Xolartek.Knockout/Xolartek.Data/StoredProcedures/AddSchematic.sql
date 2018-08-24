@@ -16,16 +16,16 @@ CREATE PROCEDURE InsertSchematic
 @MagazineSize INT,
 @WeaponRange INT,
 @AmmoCost INT,
+@RarityId INT,
 @PictureSource NVARCHAR(MAX),
 @WeaponEdition NVARCHAR(100),
-@WeaponType NVARCHAR(100),
-@Rarity NVARCHAR(100)
+@WeaponType NVARCHAR(100)
 AS
-DECLARE @pictId INT, @weapEditionId INT, @weapTypeId INT, @rareId INT
+DECLARE @pictureid INT, @weapEditionId INT, @weapTypeId INT
 
 INSERT INTO [dbo].[Pictures] ([Source],[CSSClass],[Alternate]) VALUES (@PictureSource,'img-fluid',@Name)
 
-SET @pictId = (SELECT IDENT_CURRENT('Pictures'))
+SET @pictureid = (SELECT IDENT_CURRENT('Pictures'))
 
 IF EXISTS( SELECT * FROM [dbo].[WeaponEditions] WHERE [Description] LIKE @WeaponEdition )
 	BEGIN
@@ -47,16 +47,6 @@ ELSE
 		SET @weapTypeId = (SELECT IDENT_CURRENT('WeaponTypes'))
 	END
 
-IF EXISTS( SELECT * FROM [dbo].[Rarities] WHERE [Description] LIKE @Rarity )
-	BEGIN
-		SET @rareId = (SELECT [Id] FROM [dbo].[Rarities] WHERE [Description] LIKE @Rarity)
-	END
-ELSE
-	BEGIN
-		INSERT INTO [dbo].[Rarities] ([Description]) VALUES (@Rarity)
-		SET @rareId = (SELECT IDENT_CURRENT('Rarities'))
-	END
-
 INSERT INTO [dbo].[Schematics]
 ([Name],[Description],[Durability],[Level],[Stars],[Damage],[CritChance],[CritDamage],[AttackRate],[DurabilityPerUse],[Impact],[ReloadTime],[MagazineSize],[Range],[AmmoCost],[RarityId],[PictureId],[WeaponEditionId],[WeaponTypeId]) VALUES 
 (@Name
@@ -74,8 +64,8 @@ INSERT INTO [dbo].[Schematics]
 ,@MagazineSize
 ,@WeaponRange
 ,@AmmoCost
-,<RarityId, int,>
-,<PictureId, int,>
-,<WeaponEditionId, int,>
-,<WeaponTypeId, int,>)
+,@RarityId
+,@pictureid
+,@weapEditionId
+,@weapTypeId)
 GO
