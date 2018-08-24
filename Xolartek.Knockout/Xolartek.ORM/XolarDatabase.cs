@@ -1,14 +1,16 @@
 ﻿using System.Data.Entity;
+using System.Linq;
 using Xolartek.Core;
 using Xolartek.Core.Fortnite;
 
 namespace Xolartek.ORM
 {
-    public class XolarDatabase : DbContext
+    public class XolarDatabase : DbContext, IXolarDB
     {
         public XolarDatabase() : base("DefaultConnectionString")
         { }
 
+        #region DbSets
         public DbSet<Material> Materials { get; set; }
         public DbSet<MaterialCost> MaterialCosts { get; set; }
         public DbSet<Rarity> Rarities { get; set; }
@@ -19,6 +21,59 @@ namespace Xolartek.ORM
         public DbSet<WeaponEdition> WeaponEditions { get; set; }
         public DbSet<WeaponType> WeaponTypes { get; set; }
         public DbSet<Hero> Heroes { get; set; }
+        #endregion
+
+        #region Queryables
+        IQueryable<Material> IXolarDB.Materials
+        {
+            get { return Materials; }
+        }
+
+        IQueryable<MaterialCost> IXolarDB.MaterialCosts
+        {
+            get { return MaterialCosts; }
+        }
+
+        IQueryable<Rarity> IXolarDB.Rarities
+        {
+            get { return Rarities; }
+        }
+
+        IQueryable<Picture> IXolarDB.Pictures
+        {
+            get { return Pictures; }
+        }
+
+        IQueryable<Schematic> IXolarDB.Schematics
+        {
+            get { return Schematics; }
+        }
+
+        IQueryable<Trait> IXolarDB.Traits
+        {
+            get { return Traits; }
+        }
+
+        IQueryable<TraitImpact> IXolarDB.TraitImpacts
+        {
+            get { return TraitImpacts; }
+        }
+
+        IQueryable<WeaponEdition> IXolarDB.WeaponEditions
+        {
+            get { return WeaponEditions; }
+        }
+
+        IQueryable<WeaponType> IXolarDB.WeaponTypes
+        {
+            get { return WeaponTypes; }
+        }
+
+        IQueryable<Hero> IXolarDB.Heroes
+        {
+            get { return Heroes; }
+        }
+        #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

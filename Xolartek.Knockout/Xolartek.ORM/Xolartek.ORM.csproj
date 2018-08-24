@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HeroEFConfig.cs" />
+    <Compile Include="IXolarDB.cs" />
     <Compile Include="MaterialCostEFConfig.cs" />
     <Compile Include="MaterialEFConfig.cs" />
     <Compile Include="Migrations\Configuration.cs" />
