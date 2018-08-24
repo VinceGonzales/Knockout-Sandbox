@@ -153,6 +153,70 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-007-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-008-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-013-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-015-SR-T02-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-016-F-V1-VR-T02-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-016-M-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-017-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-HammerTank-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-Myth02-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L.png" />
+    <Content Include="Content\images\T-Constructor-HID-Constructor-Sony-R-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-007-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-010-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-013-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-015-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-016-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-017-M-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-Myth02-SR-T02-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-SlashBreath-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-Sony-R-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-StarsRain-SR-T01-L.png" />
+    <Content Include="Content\images\T-Ninja-HID-Ninja-Swordmaster-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-008-VR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-009-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-010-M-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-010-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-014-M-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-015-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-016-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-017-M-V1-SR-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-Myth02-SR-T05-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-PunchDamage-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-SphereFragment-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L.png" />
+    <Content Include="Content\images\T-Outlander-HID-Outlander-ZonePistol-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-085-Athena-Commando-M-Twitch-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-098-Athena-Commando-F-StPatty-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-102-Athena-Commando-M-Raven-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-122-Athena-Commando-M-Metal-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-009-M-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-009-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-010-Bday-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-010-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-011-M-Easter-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-014-M-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-014-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-014-Wukong-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-016-M-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-017-F-V1-SR-T02-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-GunTough-M-4thJuly-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L.png" />
+    <Content Include="Content\images\T-Soldier-HID-Commando-Sony-R-T01-L.png" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -177,6 +241,7 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="App_Data\heroes.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -238,9 +303,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>

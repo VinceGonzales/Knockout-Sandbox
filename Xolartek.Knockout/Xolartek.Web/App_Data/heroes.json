@@ -1,0 +1,515 @@
+[
+   {
+      "Rarity": "legendary",
+      "Name": "Rescue Trooper Havoc",
+      "ImgUrl": "/content/images/T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L.png",
+      "Stars": 5,
+      "Level": "50",
+      "Description": "commando_grenadegun_m_t_sr_t05"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Ranger Deadeye",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-ZonePistol-SR-T01-L.png",
+      "Stars": 5,
+      "Level": "50",
+      "Description": "outlander_zonepistol_sr_t05"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Power BASE Knox",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-008-SR-T01-L.png",
+      "Stars": 5,
+      "Level": "50",
+      "Description": "constructor_008_sr_t05"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Wukong",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-014-Wukong-SR-T01-L.png",
+      "Stars": 4,
+      "Level": "40",
+      "Description": "commando_014_wukong_sr_t04"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Raven",
+      "ImgUrl": "/content/images/T-Soldier-HID-102-Athena-Commando-M-Raven-L.png",
+      "Stars": 4,
+      "Level": "40",
+      "Description": "commando_myth02_sr_t04"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Heavy BASE Kyle",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-015-SR-T02-L.png",
+      "Stars": 4,
+      "Level": "35",
+      "Description": "constructor_015_sr_t04"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "T.E.D.D. Shot Jess",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-015-F-V1-SR-T02-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "outlander_015_f_v1_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Sarah Claus",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-013-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_013_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Love Ranger Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_guntough_valentine_sr_t03"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Master Grenadier Ramirez",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_grenademaster_sr_t03"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Carbide",
+      "ImgUrl": "/content/images/T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_myth03_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Battle Hound Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_013_stpatricks_m_sr_t03"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Swordmaster Ken",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-Swordmaster-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_swordmaster_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Snuggle Specialist Sarah",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_009_f_valentine_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Rabbit Raider Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-011-M-Easter-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_011_m_easter_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Pathfinder Jess",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "outlander_zoneharvest_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Berserker Headhunter",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-014-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_014_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Shamrock Reclaimer",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "outlander_013_stpatricks_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Shuriken Master Sarah",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-StarsRain-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_starsrain_sr_t03"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Steel Wool Syd",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-Myth02-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "constructor_myth02_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Demolitionist Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-016-F-V1-VR-T02-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "constructor_016_f_v1_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Bullet Storm Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_015_m_v1_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Dragon Scorch",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-SlashBreath-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_slashbreath_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Sergeant Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-010-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_010_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Urban Assault Sledgehammer",
+      "ImgUrl": "/content/images/T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_gunheadshot_m_v1_roadtrip_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Trailblaster Buzz",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-010-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "outlander_010_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Blitzen Base Kyle",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-013-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "constructor_013_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Tank Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-HammerTank-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "constructor_hammertank_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Deadly Blade Scorpion",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-010-SR-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "ninja_010_sr_t03"
+   },
+   {
+      "Rarity": "epic",
+      "Name": "Commando Ramirez",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-Sony-R-T01-L.png",
+      "Stars": 3,
+      "Level": "30",
+      "Description": "commando_sony_vr_t03"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "The Cloaked Star",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-Myth02-SR-T02-L.png",
+      "Stars": 3,
+      "Level": "25",
+      "Description": "ninja_myth02_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Guardian Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-Sony-R-T01-L.png",
+      "Stars": 3,
+      "Level": "24",
+      "Description": "constructor_sony_sr_t03"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Stars and Stripes Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-GunTough-M-4thJuly-L.png",
+      "Stars": 2,
+      "Level": "20",
+      "Description": "commando_guntough_m_4thjuly_sr_t02"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Miss Bunny Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_plasmadamage_easter_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Diecast Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-122-Athena-Commando-M-Metal-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_015_m_v1_blockbuster_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Birthday Brigade Ramirez",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-010-Bday-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_010_bday_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Trailblaster A.C.",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-010-M-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_010_m_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Piercing Lotus Luna",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-016-F-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "ninja_016_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Electro-pulse Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_hammerplasma_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Centurion Hawk",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-009-M-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_009_m_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Centurion Wildcat",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-009-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_009_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Stars and Stripes Headhunter",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_guntough_f_4thjuly_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Berserker Renegade",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-014-M-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_014_m_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Shock Gunner Buzz",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-016-F-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_016_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Brawler Luna",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-007-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "ninja_007_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Archaeolo-Jess",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_zoneharvest_blockbuster_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Double Agent Vaughn",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-016-M-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_016_m_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Luck Demolisher Wildcat",
+      "ImgUrl": "/content/images/T-Soldier-HID-098-Athena-Commando-F-StPatty-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_013_stpatricks_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Demolitionist Bull",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-016-M-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_016_m_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Explosive Assassin Ken",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-017-M-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "ninja_017_m_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Trailblazer Quinn",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-SphereFragment-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_spherefragment_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Harvester Sarah",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-015-F-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "ninja_015_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "8-Bit Demo",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_016_m_v1_blockbuster_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Flash A.C.",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-014-M-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_014_m_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "First Shot Rio",
+      "ImgUrl": "/content/images/T-Soldier-HID-Commando-017-F-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_017_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Vanguard Southie",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-009-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_009_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Striker A.C.",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-PunchDamage-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_punchdamage_sr_t01"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Ragnarok",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-Myth02-SR-T05-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_myth02_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Vintage-Tech Penny",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-017-F-V1-SR-T02-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_017_f_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Wild Fragment Deadeye",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-017-M-V1-SR-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_017_m_v1_sr_t01"
+   },
+   {
+      "Rarity": "legendary",
+      "Name": "Controller Harper",
+      "ImgUrl": "/content/images/T-Constructor-HID-Constructor-007-SR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "constructor_007_sr_t01"
+   },
+   {
+      "Rarity": "epic",
+      "Name": "Sub Commando Jonesy",
+      "ImgUrl": "/content/images/T-Soldier-HID-085-Athena-Commando-M-Twitch-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "commando_gcgrenade_t_vr_t01"
+   },
+   {
+      "Rarity": "epic",
+      "Name": "Recon Scout Eagle Eye",
+      "ImgUrl": "/content/images/T-Outlander-HID-Outlander-008-VR-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "outlander_008_vr_t01"
+   },
+   {
+      "Rarity": "rare",
+      "Name": "Bluestreak Assassin Ken",
+      "ImgUrl": "/content/images/T-Ninja-HID-Ninja-Sony-R-T01-L.png",
+      "Stars": 1,
+      "Level": "1",
+      "Description": "ninja_sony_r_t01"
+   }
+]
+
