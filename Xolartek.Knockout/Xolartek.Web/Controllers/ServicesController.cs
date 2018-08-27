@@ -60,21 +60,11 @@ namespace Xolartek.Web.Controllers
         }
 
         [HttpPost]
-        [Route("skills/{name}/{tactical}")]
-        public HttpResponseMessage AddSkills(List<SkillVM> skills, string name, bool tactical)
+        [Route("skills/{name}")]
+        public HttpResponseMessage AddSkills(List<SkillVM> skills, string name)
         {
             foreach (SkillVM skill in skills)
             {
-                if(tactical)
-                {
-                    skill.issupport = false;
-                    skill.istactical = true;
-                }
-                else
-                {
-                    skill.issupport = true;
-                    skill.istactical = false;
-                }
                 skill.heroname = name;
                 repo.PostSkill(skill);
             }
