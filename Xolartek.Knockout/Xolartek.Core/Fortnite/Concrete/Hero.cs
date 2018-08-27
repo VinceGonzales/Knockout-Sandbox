@@ -17,14 +17,6 @@ namespace Xolartek.Core.Fortnite
         public string Description { get; set; }
         public string HeroClass { get; set; }
 
-        public int Health { get; set; }
-        public int HealthRegen { get; set; }
-        public int ShieldDelay { get; set; }
-        public decimal AbilityDamage { get; set; }
-        public decimal HealingModifier { get; set; }
-        public int RunSpeed { get; set; }
-        public int SprintSpeed { get; set; }
-
         public int RarityId { get; set; }
         private ITrait _rarity { get; set; }
         public Rarity Rarity

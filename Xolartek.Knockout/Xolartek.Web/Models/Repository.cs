@@ -38,6 +38,17 @@ namespace Xolartek.Web.Models
         {
             return db.WeaponTypes.ToList();
         }
+        public IList<Xolartek.Core.Fortnite.Skill> GetSkills()
+        {
+            return db.Skills.ToList();
+        }
+        public IList<Xolartek.Core.Fortnite.SubClass> GetSubClass(int id)
+        {
+            return db.SubClasses
+                .Where(c => c.HeroId.Equals(id))
+                .Include(c => c.Skill)
+                .ToList();
+        }
         public IList<Xolartek.Core.Fortnite.Schematic> GetSchematics()
         {
             return db.Schematics
@@ -52,6 +63,14 @@ namespace Xolartek.Web.Models
                 .Include(h => h.Picture)
                 .ToList();
         }
+        public Xolartek.Core.Fortnite.Hero GetHero(int id)
+        {
+            return db.Heroes
+                .Include(h => h.Picture)
+                .Include(h => h.Rarity)
+                .Include(h => h.SubClassAbilities)
+                .FirstOrDefault(h => h.Id.Equals(id));
+        }
         #endregion
 
         #region POST
@@ -65,6 +84,17 @@ namespace Xolartek.Web.Models
                 new SqlParameter("@description", hero.Description), 
                 new SqlParameter("@imgsource", hero.ImgUrl), 
                 new SqlParameter("@rarityid", rarity)
+                );
+        }
+        public void PostSkill(SkillVM skill)
+        {
+            var result = ((XolarDatabase)db).Database.ExecuteSqlCommand("dbo.InsertSkill @name, @description, @heroname, @classname, @support, @tactical",
+                new SqlParameter("@name", skill.name.Trim()),
+                new SqlParameter("@description", skill.description.Trim()),
+                new SqlParameter("@heroname", skill.heroname),
+                new SqlParameter("@classname", skill.classname),
+                new SqlParameter("@support", skill.issupport),
+                new SqlParameter("@tactical", skill.istactical)
                 );
         }
         #endregion

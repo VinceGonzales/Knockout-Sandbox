@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Xolartek.Web.Models
 {
@@ -11,5 +12,6 @@ namespace Xolartek.Web.Models
         public int Stars { get; set; }
         public int Level { get; set; }
         public string Description { get; set; }
+        public List<SkillVM> Skills { get; set; }
     }
 }

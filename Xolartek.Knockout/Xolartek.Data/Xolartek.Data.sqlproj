@@ -72,5 +72,6 @@
     <None Include="Hydrate\WeaponTypes.sql" />
     <None Include="StoredProcedures\AddHero.sql" />
     <None Include="StoredProcedures\AddSchematic.sql" />
+    <None Include="StoredProcedures\AddSkill.sql" />
   </ItemGroup>
 </Project>

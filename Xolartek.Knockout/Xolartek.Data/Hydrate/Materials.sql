@@ -1,4 +1,5 @@
 ﻿USE [XolartekDb]
+GO
 INSERT INTO [XolartekDb].[dbo].[Materials] ([Description]) VALUES ('Active Powercell')
 GO
 INSERT INTO [XolartekDb].[dbo].[Materials] ([Description]) VALUES ('Adhesive Resin')

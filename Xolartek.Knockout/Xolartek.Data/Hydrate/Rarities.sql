@@ -1,4 +1,5 @@
 ﻿USE [XolartekDb]
+GO
 INSERT INTO [XolartekDb].[dbo].[Rarities] ([Description]) VALUES ('Common')
 GO
 INSERT INTO [XolartekDb].[dbo].[Rarities] ([Description]) VALUES ('Epic')

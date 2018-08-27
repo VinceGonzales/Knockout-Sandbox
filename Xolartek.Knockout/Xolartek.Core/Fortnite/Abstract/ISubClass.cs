@@ -10,6 +10,8 @@ namespace Xolartek.Core.Fortnite
     {
         int Id { get; set; }
         string Name { get; set; }
+        bool IsSupport { get; set; }
+        bool IsTactical { get; set; }
         int SkillId { get; set; }
         ISkill Skill { get; set; }
         int HeroId { get; set; }

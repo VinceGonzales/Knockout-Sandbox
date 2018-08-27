@@ -9,23 +9,48 @@ using Xolartek.Web.Models;
 
 namespace Xolartek.Web.Controllers
 {
+    [RoutePrefix("api/fortnite")]
     public class ServicesController : ApiController
     {
         private Repository repo = new Repository(new XolarDatabase());
-        // GET: api/Services
-        public IEnumerable<Xolartek.Core.Fortnite.Hero> Get()
+
+        [Route("heroes")]
+        public IEnumerable<Xolartek.Core.Fortnite.Hero> GetHeroes()
         {
             return repo.GetHeroes();
         }
 
-        // GET: api/Services/5
-        public string Get(int id)
+        [Route("heroes/{id:int}")]
+        public HeroVM GetHero(int id)
         {
-            return "value";
+            var hero = repo.GetHero(id);
+            HeroVM result = new HeroVM();
+            result.Id = hero.Id;
+            result.Name = hero.Name;
+            result.Rarity = hero.Rarity.Description;
+            result.ImgUrl = hero.Picture.Source;
+            result.Stars = hero.Stars;
+            result.Level = hero.Level;
+            result.Description = hero.Description;
+            result.Skills = new List<SkillVM>();
+            foreach(Xolartek.Core.Fortnite.SubClass sub in repo.GetSubClass(id))
+            {
+                SkillVM skill = new SkillVM();
+                skill.id = sub.Id;
+                skill.name = sub.Skill.Name;
+                skill.heroname = result.Name;
+                skill.classname = sub.Name;
+                skill.description = sub.Skill.Description;
+                skill.issupport = sub.IsSupport;
+                skill.istactical = sub.IsTactical;
+                result.Skills.Add(skill);
+            }
+            return result;
         }
-
+        
         [HttpPost]
-        public HttpResponseMessage Post(List<HeroVM> heroes)
+        [Route("heroes")]
+        public HttpResponseMessage AddHeroes(List<HeroVM> heroes)
         {
             foreach(HeroVM hero in heroes)
             {
@@ -34,7 +59,28 @@ namespace Xolartek.Web.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, "success");
         }
 
-        // PUT: api/Services/5
+        [HttpPost]
+        [Route("skills/{name}/{tactical}")]
+        public HttpResponseMessage AddSkills(List<SkillVM> skills, string name, bool tactical)
+        {
+            foreach (SkillVM skill in skills)
+            {
+                if(tactical)
+                {
+                    skill.issupport = false;
+                    skill.istactical = true;
+                }
+                else
+                {
+                    skill.issupport = true;
+                    skill.istactical = false;
+                }
+                skill.heroname = name;
+                repo.PostSkill(skill);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, "success");
+        }
+
         public void Put(int id, [FromBody]string value)
         {
         }

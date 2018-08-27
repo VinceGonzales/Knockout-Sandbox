@@ -1,4 +1,5 @@
 ﻿USE [XolartekDb]
+GO
 INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Critical Rating')
 GO
 INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Magazine Size')

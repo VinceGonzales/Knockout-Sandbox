@@ -11,8 +11,6 @@ namespace Xolartek.Core.Fortnite
         public string Name { get; set; }
         [Required]
         public string Description { get; set; }
-        public bool IsSupport { get; set; }
-        public bool IsTactical { get; set; }
 
         public ICollection<SubClass> SubClasses { get; set; }
     }
