@@ -59,6 +59,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RarityEFConfig.cs" />
     <Compile Include="SchematicEFConfig.cs" />
+    <Compile Include="SkillEFConfig.cs" />
+    <Compile Include="SubClassEFConfig.cs" />
     <Compile Include="TraitEFConfig.cs" />
     <Compile Include="TraitImpactEFConfig.cs" />
     <Compile Include="WeaponEditionEFConfig.cs" />

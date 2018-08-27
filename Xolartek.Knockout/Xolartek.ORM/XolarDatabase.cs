@@ -21,6 +21,8 @@ namespace Xolartek.ORM
         public DbSet<WeaponEdition> WeaponEditions { get; set; }
         public DbSet<WeaponType> WeaponTypes { get; set; }
         public DbSet<Hero> Heroes { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<SubClass> SubClasses { get; set; }
         #endregion
 
         #region Queryables
@@ -73,6 +75,16 @@ namespace Xolartek.ORM
         {
             get { return Heroes; }
         }
+
+        IQueryable<Skill> IXolarDB.Skills
+        {
+            get { return Skills; }
+        }
+
+        IQueryable<SubClass> IXolarDB.SubClasses
+        {
+            get { return SubClasses; }
+        }
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -89,6 +101,8 @@ namespace Xolartek.ORM
             modelBuilder.Configurations.Add(new PictureEFConfig());
             modelBuilder.Configurations.Add(new TraitImpactEFConfig());
             modelBuilder.Configurations.Add(new MaterialCostEFConfig());
+            modelBuilder.Configurations.Add(new SkillEFConfig());
+            modelBuilder.Configurations.Add(new SubClassEFConfig());
         }
     }
 }

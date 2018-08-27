@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 
 namespace Xolartek.Core.Fortnite
 {
@@ -13,6 +15,15 @@ namespace Xolartek.Core.Fortnite
         public int Stars { get; set; }
         public int Level { get; set; }
         public string Description { get; set; }
+        public string HeroClass { get; set; }
+
+        public int Health { get; set; }
+        public int HealthRegen { get; set; }
+        public int ShieldDelay { get; set; }
+        public decimal AbilityDamage { get; set; }
+        public decimal HealingModifier { get; set; }
+        public int RunSpeed { get; set; }
+        public int SprintSpeed { get; set; }
 
         public int RarityId { get; set; }
         private ITrait _rarity { get; set; }
@@ -61,6 +72,34 @@ namespace Xolartek.Core.Fortnite
             set
             {
                 _picture = value;
+            }
+        }
+
+        private ICollection<ISubClass> _subclasses;
+        public ICollection<SubClass> SubClassAbilities
+        {
+            get
+            {
+                if (_subclasses == null)
+                {
+                    return null;
+                }
+                return _subclasses.Select(s => s as SubClass).ToList();
+            }
+            set
+            {
+                _subclasses = value.Select(s => s as ISubClass).ToList();
+            }
+        }
+        ICollection<ISubClass> IHero.SubClassAbilities
+        {
+            get
+            {
+                return _subclasses;
+            }
+            set
+            {
+                _subclasses = value;
             }
         }
 

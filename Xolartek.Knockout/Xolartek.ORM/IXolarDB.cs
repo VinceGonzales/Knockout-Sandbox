@@ -16,5 +16,7 @@ namespace Xolartek.ORM
         IQueryable<WeaponEdition> WeaponEditions { get; }
         IQueryable<WeaponType> WeaponTypes { get; }
         IQueryable<Hero> Heroes { get; }
+        IQueryable<Skill> Skills { get; }
+        IQueryable<SubClass> SubClasses { get; }
     }
 }

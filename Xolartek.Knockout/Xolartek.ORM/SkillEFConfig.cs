@@ -4,23 +4,20 @@ using Xolartek.Core.Fortnite;
 
 namespace Xolartek.ORM
 {
-    public class HeroEFConfig : EntityTypeConfiguration<Hero>
+    public class SkillEFConfig : EntityTypeConfiguration<Skill>
     {
-        public HeroEFConfig()
+        public SkillEFConfig()
         {
-            ToTable("Heroes");
+            ToTable("Skills");
             HasKey<int>(s => s.Id)
                 .Property(s => s.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
-            Property(s => s.Name).HasMaxLength(100);
 
-            HasMany<SubClass>(c => c.SubClassAbilities)
-                .WithRequired(s => s.Hero)
-                .HasForeignKey(s => s.HeroId)
+            HasMany<SubClass>(s => s.SubClasses)
+                .WithRequired(x => x.Skill)
+                .HasForeignKey(x => x.SkillId)
                 .WillCascadeOnDelete(false);
-
-            HasOptional(m => m.Picture);
         }
     }
 }

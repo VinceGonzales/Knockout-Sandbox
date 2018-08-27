@@ -55,6 +55,8 @@
     <Compile Include="Fortnite\Abstract\IMaterial.cs" />
     <Compile Include="Fortnite\Abstract\IMaterialCost.cs" />
     <Compile Include="Fortnite\Abstract\ISchematic.cs" />
+    <Compile Include="Fortnite\Abstract\ISkill.cs" />
+    <Compile Include="Fortnite\Abstract\ISubClass.cs" />
     <Compile Include="Fortnite\Abstract\ITrait.cs" />
     <Compile Include="Fortnite\Abstract\ITraitImpact.cs" />
     <Compile Include="Fortnite\Abstract\IWeaponMelee.cs" />
@@ -65,6 +67,8 @@
     <Compile Include="Fortnite\Concrete\MaterialCost.cs" />
     <Compile Include="Fortnite\Concrete\Rarity.cs" />
     <Compile Include="Fortnite\Concrete\Schematic.cs" />
+    <Compile Include="Fortnite\Concrete\Skill.cs" />
+    <Compile Include="Fortnite\Concrete\SubClass.cs" />
     <Compile Include="Fortnite\Concrete\Trait.cs" />
     <Compile Include="Fortnite\Concrete\TraitImpact.cs" />
     <Compile Include="Fortnite\Concrete\WeaponEdition.cs" />
