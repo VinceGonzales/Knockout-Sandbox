@@ -74,8 +74,7 @@ namespace Xolartek.Web.Controllers
         public void Put(int id, [FromBody]string value)
         {
         }
-
-        // DELETE: api/Services/5
+        
         public void Delete(int id)
         {
         }
