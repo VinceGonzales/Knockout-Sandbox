@@ -12,6 +12,16 @@ namespace Xolartek.Core.Fortnite
         string Description { get; set; }
         string HeroClass { get; set; }
 
+        int Health { get; set; }
+        int HealthRegenRate { get; set; }
+        int Shield { get; set; }
+        int ShieldRegenRate { get; set; }
+        int ShieldRegenDelay { get; set; }
+        decimal HeroAbilityDmg { get; set; }
+        decimal HeroHealingMod { get; set; }
+        int RunSpeed { get; set; }
+        int SprintSpeed { get; set; }
+
         ICollection<ISubClass> SubClassAbilities { get; set; }
 
         int RarityId { get; set; }

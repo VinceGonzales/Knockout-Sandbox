@@ -18,38 +18,38 @@ namespace Xolartek.Web.Models
         }
 
         #region GET
-        public IList<Xolartek.Core.Fortnite.Material> GetMaterials()
+        public List<Xolartek.Core.Fortnite.Material> GetMaterials()
         {
             return db.Materials.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.Rarity> GetRarities()
+        public List<Xolartek.Core.Fortnite.Rarity> GetRarities()
         {
             return db.Rarities.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.Trait> GetTraits()
+        public List<Xolartek.Core.Fortnite.Trait> GetTraits()
         {
             return db.Traits.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.WeaponEdition> GetEditions()
+        public List<Xolartek.Core.Fortnite.WeaponEdition> GetEditions()
         {
             return db.WeaponEditions.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.WeaponType> GetWeaponTypes()
+        public List<Xolartek.Core.Fortnite.WeaponType> GetWeaponTypes()
         {
             return db.WeaponTypes.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.Skill> GetSkills()
+        public List<Xolartek.Core.Fortnite.Skill> GetSkills()
         {
             return db.Skills.ToList();
         }
-        public IList<Xolartek.Core.Fortnite.SubClass> GetSubClass(int id)
+        public List<Xolartek.Core.Fortnite.SubClass> GetSubClass(int id)
         {
             return db.SubClasses
                 .Where(c => c.HeroId.Equals(id))
                 .Include(c => c.Skill)
                 .ToList();
         }
-        public IList<Xolartek.Core.Fortnite.Schematic> GetSchematics()
+        public List<Xolartek.Core.Fortnite.Schematic> GetSchematics()
         {
             return db.Schematics
                 .Include(s => s.Materials)
@@ -57,7 +57,7 @@ namespace Xolartek.Web.Models
                 .Include(s => s.Picture)
                 .ToList();
         }
-        public IList<Xolartek.Core.Fortnite.Hero> GetHeroes()
+        public List<Xolartek.Core.Fortnite.Hero> GetHeroes()
         {
             return db.Heroes
                 .Include(h => h.Picture)

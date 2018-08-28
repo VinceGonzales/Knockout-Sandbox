@@ -61,6 +61,7 @@
     <Folder Include="Migrations" />
     <Folder Include="Hydrate" />
     <Folder Include="StoredProcedures" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\Initialize.sql" />
@@ -73,5 +74,8 @@
     <None Include="StoredProcedures\AddHero.sql" />
     <None Include="StoredProcedures\AddSchematic.sql" />
     <None Include="StoredProcedures\AddSkill.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Scripts\UpdateColumns.sql" />
   </ItemGroup>
 </Project>
