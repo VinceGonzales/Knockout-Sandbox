@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Xolartek.ORM;
 using Xolartek.Web.Models;
 
@@ -15,6 +16,7 @@ namespace Xolartek.Web.Controllers
         private Repository repo = new Repository(new XolarDatabase());
 
         [Route("heroes")]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
         public IEnumerable<Xolartek.Core.Fortnite.Hero> GetHeroes()
         {
             return repo.GetHeroes();
