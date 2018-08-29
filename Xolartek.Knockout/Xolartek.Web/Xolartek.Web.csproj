@@ -252,6 +252,7 @@
     <Content Include="App_Data\heroes.json" />
     <Content Include="App_Data\fortnite.gamepedia.com.json" />
     <Content Include="App_Data\fortnite.json" />
+    <Content Include="App_Data\schematics.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
