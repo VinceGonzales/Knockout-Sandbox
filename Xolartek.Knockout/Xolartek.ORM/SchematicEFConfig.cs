@@ -14,6 +14,17 @@ namespace Xolartek.ORM
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
             Property(s => s.Name).HasMaxLength(100);
+            Property(s => s.Durability).IsOptional();
+            Property(s => s.Damage).IsOptional();
+            Property(s => s.CritChance).IsOptional();
+            Property(s => s.CritDamage).IsOptional();
+            Property(s => s.AttackRate).IsOptional();
+            Property(s => s.DurabilityPerUse).IsOptional();
+            Property(s => s.Impact).IsOptional();
+            Property(s => s.ReloadTime).IsOptional();
+            Property(s => s.MagazineSize).IsOptional();
+            Property(s => s.Range).IsOptional();
+            Property(s => s.AmmoCost).IsOptional();
 
             HasMany<TraitImpact>(s => s.Traits)
                 .WithRequired(ti => ti.Schematic)

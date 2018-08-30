@@ -13,6 +13,7 @@ namespace Xolartek.ORM
                 .Property(s => s.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
+            Property(s => s.WeaponClass).IsOptional();
         }
     }
 }

@@ -18,5 +18,11 @@ namespace Xolartek.ORM
         IQueryable<Hero> Heroes { get; }
         IQueryable<Skill> Skills { get; }
         IQueryable<SubClass> SubClasses { get; }
+
+        void InsertPicture(Picture pix);
+        void InsertWeaponType(WeaponType weapType);
+        void InsertSchematic(Schematic schematic);
+        void InsertTrait(Trait trait);
+        void InsertTraitImpact(TraitImpact impact);
     }
 }

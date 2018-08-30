@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using Xolartek.Core.Fortnite;
 using Xolartek.ORM;
 using Xolartek.Web.Models;
 
@@ -69,6 +70,45 @@ namespace Xolartek.Web.Controllers
             {
                 skill.heroname = name;
                 repo.PostSkill(skill);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, "success");
+        }
+
+        [Route("schematics")]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        public List<SchematicVM> GetSchematics()
+        {
+            List<SchematicVM> result = new List<SchematicVM>();
+            List<Schematic> schematics = repo.GetSchematics();
+            foreach(Schematic sch in schematics)
+            {
+                SchematicVM vm = new SchematicVM();
+                vm.id = sch.Id;
+                vm.name = sch.Name;
+                vm.imgurl = sch.Picture.Source;
+                vm.level = sch.Level;
+                vm.stars = sch.Stars;
+                vm.description = sch.Description;
+                vm.stat = new List<stat>();
+                foreach(var attr in sch.Traits)
+                {
+                    stat s = new stat();
+                    s.name = attr.Trait.Description;
+                    s.value = attr.Impact;
+                    vm.stat.Add(s);
+                }
+                result.Add(vm);
+            }
+            return result;
+        }
+
+        [HttpPost]
+        [Route("schematic")]
+        public HttpResponseMessage AddSchematic(List<SchematicVM> schematics)
+        {
+            foreach(SchematicVM schem in schematics)
+            {
+                repo.PostSchematicA(schem);
             }
             return Request.CreateResponse(HttpStatusCode.OK, "success");
         }

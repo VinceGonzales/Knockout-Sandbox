@@ -286,6 +286,7 @@
     <Compile Include="Models\Extensions\KoExtensions.cs" />
     <Compile Include="Models\HeroVM.cs" />
     <Compile Include="Models\Repository.cs" />
+    <Compile Include="Models\SchematicVM.cs" />
     <Compile Include="Models\SkillVM.cs" />
     <Compile Include="Models\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

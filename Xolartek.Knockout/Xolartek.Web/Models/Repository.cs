@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.Linq;
+using Xolartek.Core;
+using Xolartek.Core.Fortnite;
 using Xolartek.ORM;
 
 namespace Xolartek.Web.Models
@@ -97,6 +100,92 @@ namespace Xolartek.Web.Models
                 new SqlParameter("@tactical", skill.istactical)
                 );
         }
+        public void PostSchematicA(SchematicVM schemat)
+        {
+            int pictId = 1;
+            if(!string.IsNullOrEmpty(schemat.imgurl))
+            {
+                Picture pict = new Picture();
+                pict.Source = schemat.imgurl;
+                pict.CSSClass = "img-fluid";
+                pict.Alternate = schemat.description;
+                db.InsertPicture(pict);
+                pictId = pict.Id;
+            }
+
+            string weapTypName = "";
+            string[] desc = schemat.description.Split('_');
+            switch(desc[1].ToLower())
+            {
+                case "assault":
+                    weapTypName = "Assault";
+                    break;
+                case "pistol":
+                    weapTypName = "Pistol";
+                    break;
+                case "shotgun":
+                    weapTypName = "Shotgun";
+                    break;
+                case "sniper":
+                    weapTypName = "Sniper";
+                    break;
+                case "launcher":
+                case "explosive":
+                    weapTypName = "Explosive";
+                    break;
+                case "wall":
+                case "floor":
+                case "ceiling":
+                    weapTypName = "Trap";
+                    break;
+                case "edged":
+                case "blunt":
+                case "piercing":
+                    weapTypName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(desc[2].ToLower());
+                    break;
+                default:
+                    weapTypName = "Unknown";
+                    break;
+            }
+            WeaponType weaponType = new WeaponType();
+            weaponType.Description = weapTypName;
+            db.InsertWeaponType(weaponType);
+
+            Schematic weaponSchematic = new Schematic();
+            weaponSchematic.Name = schemat.name;
+            weaponSchematic.Level = schemat.level;
+            weaponSchematic.Stars = schemat.stars;
+            weaponSchematic.Description = schemat.description;
+            weaponSchematic.PictureId = pictId;
+            weaponSchematic.WeaponTypeId = weaponType.Id;
+            weaponSchematic.Rarity = db.Rarities.FirstOrDefault(r => r.Description.Equals("Legendary"));
+            weaponSchematic.Traits = new List<TraitImpact>();
+
+            foreach (var stat in schemat.stat)
+            {
+                string descr = stat.name.Trim();
+                string effect = stat.value.Trim();
+                Trait trait = db.Traits.FirstOrDefault(t => t.Description.Equals(descr));
+                if (trait == null)
+                {
+                    trait = new Trait();
+                    trait.Description = descr;
+                    db.InsertTrait(trait);
+                }
+                TraitImpact impact = new TraitImpact();
+                impact.Impact = effect;
+                impact.SchematicId = weaponSchematic.Id;
+                impact.TraitId = trait.Id;
+                weaponSchematic.Traits.Add(impact);
+                //db.InsertTraitImpact(impact);
+            }
+
+            db.InsertSchematic(weaponSchematic);
+        }
+        #endregion
+
+        #region PUT
+        //
         #endregion
 
         #region IDisposable
