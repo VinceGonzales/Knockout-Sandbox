@@ -74,6 +74,14 @@ namespace Xolartek.Web.Models
                 .Include(h => h.SubClassAbilities)
                 .FirstOrDefault(h => h.Id.Equals(id));
         }
+        public List<Xolartek.Core.Fortnite.TraitImpact> GetTraitImpacts(int id)
+        {
+            return db.TraitImpacts
+                .Include(t => t.Trait)
+                .Include(s => s.Schematic)
+                .Where(t => t.SchematicId.Equals(id))
+                .ToList();
+        }
         #endregion
 
         #region POST

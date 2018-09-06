@@ -90,13 +90,16 @@ namespace Xolartek.Web.Controllers
                 vm.stars = sch.Stars;
                 vm.description = sch.Description;
                 vm.stat = new List<stat>();
-                foreach(var attr in sch.Traits)
+
+                List<TraitImpact> impacts = repo.GetTraitImpacts(sch.Id);
+                foreach (TraitImpact ti in impacts)
                 {
                     stat s = new stat();
-                    s.name = attr.Trait.Description;
-                    s.value = attr.Impact;
+                    s.name = ti.Trait.Description;
+                    s.value = ti.Impact;
                     vm.stat.Add(s);
                 }
+
                 result.Add(vm);
             }
             return result;
@@ -111,6 +114,33 @@ namespace Xolartek.Web.Controllers
                 repo.PostSchematicA(schem);
             }
             return Request.CreateResponse(HttpStatusCode.OK, "success");
+        }
+
+        [Route("traits")]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        public List<SchematicVM> GetTraits(int id)
+        {
+            List<SchematicVM> result = new List<SchematicVM>();
+            List<TraitImpact> impacts = repo.GetTraitImpacts(id);
+
+            SchematicVM vm = new SchematicVM();
+            vm.id = impacts[0].SchematicId;
+            vm.name = impacts[0].Schematic.Name;
+            vm.level = impacts[0].Schematic.Level;
+            vm.stars = impacts[0].Schematic.Stars;
+            vm.description = impacts[0].Schematic.Description;
+            vm.stat = new List<stat>();
+
+            foreach (TraitImpact ti in impacts)
+            {
+                stat s = new stat();
+                s.id = ti.Id;
+                s.name = ti.Trait.Description;
+                s.value = ti.Impact;
+                vm.stat.Add(s);
+            }
+            result.Add(vm);
+            return result;
         }
 
         public void Put(int id, [FromBody]string value)

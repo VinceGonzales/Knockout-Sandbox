@@ -8,7 +8,7 @@ namespace Xolartek.Core.Fortnite
         public int Id { get; set; }
         [Required]
         public string Impact { get; set; }
-        public int WeaponClass { get; set; }
+        public int? WeaponClass { get; set; }
         public int TraitId { get; set; }
         public int SchematicId { get; set; }
 
