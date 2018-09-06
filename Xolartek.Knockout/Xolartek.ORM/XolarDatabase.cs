@@ -91,29 +91,29 @@ namespace Xolartek.ORM
         public void InsertPicture(Picture pix)
         {
             Pictures.Add(pix);
-            SaveChanges();
         }
         public void InsertWeaponType(WeaponType weapType)
         {
             WeaponTypes.Add(weapType);
-            SaveChanges();
         }
         public void InsertSchematic(Schematic schematic)
         {
             Schematics.Add(schematic);
-            SaveChanges();
         }
         public void InsertTrait(Trait trait)
         {
             Traits.Add(trait);
-            SaveChanges();
         }
         public void InsertTraitImpact(TraitImpact impact)
         {
             TraitImpacts.Add(impact);
-            SaveChanges();
         }
         #endregion
+
+        public void SaveDbChanges()
+        {
+            SaveChanges();
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

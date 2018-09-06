@@ -8,7 +8,7 @@ INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Damage')
 GO
 INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Damage to afflicted targets')
 GO
-INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Causes Affliction damage for 6 seconds')
+INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Causes Affliction damage for 6 seconds.')
 GO
 INSERT INTO [XolartekDb].[dbo].[Traits] ([Description]) VALUES ('Reload Speed')
 GO

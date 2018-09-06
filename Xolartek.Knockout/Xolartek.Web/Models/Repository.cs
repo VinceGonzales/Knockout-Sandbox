@@ -110,6 +110,7 @@ namespace Xolartek.Web.Models
                 pict.CSSClass = "img-fluid";
                 pict.Alternate = schemat.description;
                 db.InsertPicture(pict);
+                db.SaveDbChanges();
                 pictId = pict.Id;
             }
 
@@ -150,6 +151,7 @@ namespace Xolartek.Web.Models
             WeaponType weaponType = new WeaponType();
             weaponType.Description = weapTypName;
             db.InsertWeaponType(weaponType);
+            db.SaveDbChanges();
 
             Schematic weaponSchematic = new Schematic();
             weaponSchematic.Name = schemat.name;
@@ -159,30 +161,38 @@ namespace Xolartek.Web.Models
             weaponSchematic.PictureId = pictId;
             weaponSchematic.WeaponTypeId = weaponType.Id;
             weaponSchematic.Rarity = db.Rarities.FirstOrDefault(r => r.Description.Equals("Legendary"));
-            weaponSchematic.Traits = new List<TraitImpact>();
 
             foreach (var stat in schemat.stat)
             {
                 string descr = stat.name.Trim();
-                string effect = stat.value.Trim();
                 Trait trait = db.Traits.FirstOrDefault(t => t.Description.Equals(descr));
                 if (trait == null)
                 {
                     trait = new Trait();
                     trait.Description = descr;
                     db.InsertTrait(trait);
+                    db.SaveDbChanges();
                 }
-                TraitImpact impact = new TraitImpact();
-                impact.Impact = effect;
-                impact.SchematicId = weaponSchematic.Id;
-                impact.TraitId = trait.Id;
-                weaponSchematic.Traits.Add(impact);
-                //db.InsertTraitImpact(impact);
+                stat.id = trait.Id;
             }
 
             db.InsertSchematic(weaponSchematic);
+            db.SaveDbChanges();
+
+            schemat.stat.ForEach(s => {
+                AddTraitImpact(s.value.Trim(), weaponSchematic.Id, s.id);
+            });
         }
         #endregion
+
+        private void AddTraitImpact(string value, int schemaId, int traitId)
+        {
+            var result = ((XolarDatabase)db).Database.ExecuteSqlCommand("dbo.InsertTraitImpact @Impact, @TraitId, @SchematicId",
+                new SqlParameter("@Impact", value),
+                new SqlParameter("@TraitId", traitId),
+                new SqlParameter("@SchematicId", schemaId)
+                );
+        }
 
         #region PUT
         //

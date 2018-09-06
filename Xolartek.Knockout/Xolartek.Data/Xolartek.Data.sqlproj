@@ -74,6 +74,7 @@
     <None Include="StoredProcedures\AddHero.sql" />
     <None Include="StoredProcedures\AddSchematic.sql" />
     <None Include="StoredProcedures\AddSkill.sql" />
+    <None Include="StoredProcedures\AddTraitImpact.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\UpdateColumns.sql" />

@@ -24,5 +24,6 @@ namespace Xolartek.ORM
         void InsertSchematic(Schematic schematic);
         void InsertTrait(Trait trait);
         void InsertTraitImpact(TraitImpact impact);
+        void SaveDbChanges();
     }
 }
