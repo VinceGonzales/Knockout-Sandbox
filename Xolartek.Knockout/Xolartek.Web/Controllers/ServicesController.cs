@@ -14,141 +14,161 @@ namespace Xolartek.Web.Controllers
     [RoutePrefix("api/fortnite")]
     public class ServicesController : ApiController
     {
-        private Repository repo = new Repository(new XolarDatabase());
-
         [Route("heroes")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-        public IEnumerable<Xolartek.Core.Fortnite.Hero> GetHeroes()
+        public IEnumerable<Hero> GetHeroes()
         {
-            return repo.GetHeroes();
+            using (Repository repo = new Repository(new XolarDatabase()))
+            {
+                return repo.GetHeroes();
+            }
         }
-
         [Route("heroes/{id:int}")]
         public HeroVM GetHero(int id)
         {
-            var hero = repo.GetHero(id);
-            HeroVM result = new HeroVM();
-            result.Id = hero.Id;
-            result.Name = hero.Name;
-            result.Rarity = hero.Rarity.Description;
-            result.ImgUrl = hero.Picture.Source;
-            result.Stars = hero.Stars;
-            result.Level = hero.Level;
-            result.Description = hero.Description;
-            result.Skills = new List<SkillVM>();
-            foreach(Xolartek.Core.Fortnite.SubClass sub in repo.GetSubClass(id))
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                SkillVM skill = new SkillVM();
-                skill.id = sub.Id;
-                skill.name = sub.Skill.Name;
-                skill.heroname = result.Name;
-                skill.classname = sub.Name;
-                skill.description = sub.Skill.Description;
-                skill.issupport = sub.IsSupport;
-                skill.istactical = sub.IsTactical;
-                result.Skills.Add(skill);
+                var hero = repo.GetHero(id);
+                HeroVM result = new HeroVM();
+                result.Id = hero.Id;
+                result.Name = hero.Name;
+                result.Rarity = hero.Rarity.Description;
+                result.ImgUrl = hero.Picture.Source;
+                result.Stars = hero.Stars;
+                result.Level = hero.Level;
+                result.Description = hero.Description;
+                result.Skills = new List<SkillVM>();
+                foreach (Xolartek.Core.Fortnite.SubClass sub in repo.GetSubClass(id))
+                {
+                    SkillVM skill = new SkillVM();
+                    skill.id = sub.Id;
+                    skill.name = sub.Skill.Name;
+                    skill.heroname = result.Name;
+                    skill.classname = sub.Name;
+                    skill.description = sub.Skill.Description;
+                    skill.issupport = sub.IsSupport;
+                    skill.istactical = sub.IsTactical;
+                    result.Skills.Add(skill);
+                }
+                return result;
             }
-            return result;
         }
-        
         [HttpPost]
         [Route("heroes")]
         public HttpResponseMessage AddHeroes(List<HeroVM> heroes)
         {
-            foreach(HeroVM hero in heroes)
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                repo.PostHero(hero);
+                foreach (HeroVM hero in heroes)
+                {
+                    repo.PostHero(hero);
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
-            return Request.CreateResponse(HttpStatusCode.OK, "success");
         }
-
+        [HttpPost]
+        [Route("skills/{id:int}")]
+        public HttpResponseMessage AddSkills(List<SkillVM> skills, int id)
+        {
+            using (Repository repo = new Repository(new XolarDatabase()))
+            {
+                string name = repo.GetHero(id).Name;
+                foreach (SkillVM skill in skills)
+                {
+                    skill.heroname = name;
+                    repo.PostSkill(skill);
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "success");
+            }
+        }
         [HttpPost]
         [Route("skills/{name}")]
         public HttpResponseMessage AddSkills(List<SkillVM> skills, string name)
         {
-            foreach (SkillVM skill in skills)
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                skill.heroname = name;
-                repo.PostSkill(skill);
+                foreach (SkillVM skill in skills)
+                {
+                    skill.heroname = name;
+                    repo.PostSkill(skill);
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
-            return Request.CreateResponse(HttpStatusCode.OK, "success");
         }
-
         [Route("schematics")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         public List<SchematicVM> GetSchematics()
         {
-            List<SchematicVM> result = new List<SchematicVM>();
-            List<Schematic> schematics = repo.GetSchematics();
-            foreach(Schematic sch in schematics)
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                SchematicVM vm = new SchematicVM();
-                vm.id = sch.Id;
-                vm.name = sch.Name;
-                vm.imgurl = sch.Picture.Source;
-                vm.level = sch.Level;
-                vm.stars = sch.Stars;
-                vm.description = sch.Description;
-                vm.stat = new List<stat>();
-
-                List<TraitImpact> impacts = repo.GetTraitImpacts(sch.Id);
-                foreach (TraitImpact ti in impacts)
+                List<SchematicVM> result = new List<SchematicVM>();
+                List<Schematic> schematics = repo.GetSchematics();
+                foreach (Schematic sch in schematics)
                 {
-                    stat s = new stat();
-                    s.name = ti.Trait.Description;
-                    s.value = ti.Impact;
-                    vm.stat.Add(s);
+                    SchematicVM vm = new SchematicVM();
+                    vm.id = sch.Id;
+                    vm.name = sch.Name;
+                    vm.imgurl = sch.Picture.Source;
+                    vm.level = sch.Level;
+                    vm.stars = sch.Stars;
+                    vm.description = sch.Description;
+                    vm.stat = new List<stat>();
+
+                    List<TraitImpact> impacts = repo.GetTraitImpacts(sch.Id);
+                    foreach (TraitImpact ti in impacts)
+                    {
+                        stat s = new stat();
+                        s.name = ti.Trait.Description;
+                        s.value = ti.Impact;
+                        vm.stat.Add(s);
+                    }
+
+                    result.Add(vm);
                 }
-
-                result.Add(vm);
+                return result;
             }
-            return result;
         }
-
         [HttpPost]
-        [Route("schematic")]
+        [Route("schematics")]
         public HttpResponseMessage AddSchematic(List<SchematicVM> schematics)
         {
-            foreach(SchematicVM schem in schematics)
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                repo.PostSchematicA(schem);
+                foreach (SchematicVM schem in schematics)
+                {
+                    repo.PostSchematicA(schem);
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
-            return Request.CreateResponse(HttpStatusCode.OK, "success");
         }
-
         [Route("traits")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         public List<SchematicVM> GetTraits(int id)
         {
-            List<SchematicVM> result = new List<SchematicVM>();
-            List<TraitImpact> impacts = repo.GetTraitImpacts(id);
-
-            SchematicVM vm = new SchematicVM();
-            vm.id = impacts[0].SchematicId;
-            vm.name = impacts[0].Schematic.Name;
-            vm.level = impacts[0].Schematic.Level;
-            vm.stars = impacts[0].Schematic.Stars;
-            vm.description = impacts[0].Schematic.Description;
-            vm.stat = new List<stat>();
-
-            foreach (TraitImpact ti in impacts)
+            using (Repository repo = new Repository(new XolarDatabase()))
             {
-                stat s = new stat();
-                s.id = ti.Id;
-                s.name = ti.Trait.Description;
-                s.value = ti.Impact;
-                vm.stat.Add(s);
-            }
-            result.Add(vm);
-            return result;
-        }
+                List<SchematicVM> result = new List<SchematicVM>();
+                List<TraitImpact> impacts = repo.GetTraitImpacts(id);
 
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-        
-        public void Delete(int id)
-        {
+                SchematicVM vm = new SchematicVM();
+                vm.id = impacts[0].SchematicId;
+                vm.name = impacts[0].Schematic.Name;
+                vm.level = impacts[0].Schematic.Level;
+                vm.stars = impacts[0].Schematic.Stars;
+                vm.description = impacts[0].Schematic.Description;
+                vm.stat = new List<stat>();
+
+                foreach (TraitImpact ti in impacts)
+                {
+                    stat s = new stat();
+                    s.id = ti.Id;
+                    s.name = ti.Trait.Description;
+                    s.value = ti.Impact;
+                    vm.stat.Add(s);
+                }
+                result.Add(vm);
+                return result;
+            }
         }
     }
 }

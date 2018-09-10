@@ -156,10 +156,15 @@ namespace Xolartek.Web.Models
                     weapTypName = "Unknown";
                     break;
             }
-            WeaponType weaponType = new WeaponType();
-            weaponType.Description = weapTypName;
-            db.InsertWeaponType(weaponType);
-            db.SaveDbChanges();
+
+            WeaponType weaponType = db.WeaponTypes.FirstOrDefault(wt => wt.Description.Equals(weapTypName));
+            if (weaponType == null)
+            {
+                weaponType = new WeaponType();
+                weaponType.Description = weapTypName;
+                db.InsertWeaponType(weaponType);
+                db.SaveDbChanges();
+            }
 
             Schematic weaponSchematic = new Schematic();
             weaponSchematic.Name = schemat.name;
