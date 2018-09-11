@@ -43,8 +43,8 @@
       "Rarity": "legendary",
       "Name": "Heavy BASE Kyle",
       "ImgUrl": "/content/images/T-Constructor-HID-Constructor-015-SR-T02-L.png",
-      "Stars": 4,
-      "Level": "35",
+      "Stars": 5,
+      "Level": "50",
       "Description": "constructor_015_sr_t04"
    },
    {
@@ -75,8 +75,8 @@
       "Rarity": "mythic",
       "Name": "Master Grenadier Ramirez",
       "ImgUrl": "/content/images/T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L.png",
-      "Stars": 3,
-      "Level": "30",
+      "Stars": 4,
+      "Level": "40",
       "Description": "commando_grenademaster_sr_t03"
    },
    {
@@ -203,8 +203,8 @@
       "Rarity": "legendary",
       "Name": "Trailblaster Buzz",
       "ImgUrl": "/content/images/T-Outlander-HID-Outlander-010-SR-T01-L.png",
-      "Stars": 3,
-      "Level": "30",
+      "Stars": 4,
+      "Level": "36",
       "Description": "outlander_010_sr_t03"
    },
    {
