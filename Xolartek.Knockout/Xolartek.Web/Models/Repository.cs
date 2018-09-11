@@ -147,8 +147,10 @@ namespace Xolartek.Web.Models
                 case "ceiling":
                     weapTypName = "Trap";
                     break;
-                case "edged":
                 case "blunt":
+                    weapTypName = "Blunt";
+                    break;
+                case "edged":
                 case "piercing":
                     weapTypName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(desc[2].ToLower());
                     break;
