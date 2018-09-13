@@ -510,6 +510,14 @@
       "Stars": 1,
       "Level": "1",
       "Description": "ninja_sony_r_t01"
+   },
+   {
+      "Rarity": "mythic",
+      "Name": "Field Agent Rio",
+      "ImgUrl": "/content/images/T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L.png",
+      "Stars": 1,
+      "Level": "7",
+      "Description": "commando_014_wukong_sr_t04"
    }
 ]
 

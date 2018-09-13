@@ -66,6 +66,29 @@ namespace Xolartek.Web.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
         }
+        [Route("subclass/{id:int}")]
+        public DataViewModel GetSkills(int id)
+        {
+            using (Repository repo = new Repository(new XolarDatabase()))
+            {
+                DataViewModel result = new DataViewModel();
+                result.Data = new List<SkillVM>();
+                List<Xolartek.Core.Fortnite.SubClass> skills = repo.GetSubClass(id);
+                result.Total = skills.Count;
+                foreach (Xolartek.Core.Fortnite.SubClass sub in skills)
+                {
+                    SkillVM skill = new SkillVM();
+                    skill.id = sub.Id;
+                    skill.name = sub.Skill.Name;
+                    skill.classname = sub.Name;
+                    skill.description = sub.Skill.Description;
+                    skill.issupport = sub.IsSupport;
+                    skill.istactical = sub.IsTactical;
+                    result.Data.Add(skill);
+                }
+                return result;
+            }
+        }
         [HttpPost]
         [Route("skills/{id:int}")]
         public HttpResponseMessage AddSkills(List<SkillVM> skills, int id)
@@ -141,22 +164,21 @@ namespace Xolartek.Web.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
         }
-        [Route("traits")]
+        [Route("schematic/{id:int}")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-        public List<SchematicVM> GetTraits(int id)
+        public SchematicVM GetTraits(int id)
         {
             using (Repository repo = new Repository(new XolarDatabase()))
             {
-                List<SchematicVM> result = new List<SchematicVM>();
                 List<TraitImpact> impacts = repo.GetTraitImpacts(id);
 
-                SchematicVM vm = new SchematicVM();
-                vm.id = impacts[0].SchematicId;
-                vm.name = impacts[0].Schematic.Name;
-                vm.level = impacts[0].Schematic.Level;
-                vm.stars = impacts[0].Schematic.Stars;
-                vm.description = impacts[0].Schematic.Description;
-                vm.stat = new List<stat>();
+                SchematicVM result = new SchematicVM();
+                result.id = impacts[0].SchematicId;
+                result.name = impacts[0].Schematic.Name;
+                result.level = impacts[0].Schematic.Level;
+                result.stars = impacts[0].Schematic.Stars;
+                result.description = impacts[0].Schematic.Description;
+                result.stat = new List<stat>();
 
                 foreach (TraitImpact ti in impacts)
                 {
@@ -164,9 +186,9 @@ namespace Xolartek.Web.Controllers
                     s.id = ti.Id;
                     s.name = ti.Trait.Description;
                     s.value = ti.Impact;
-                    vm.stat.Add(s);
+                    result.stat.Add(s);
                 }
-                result.Add(vm);
+                
                 return result;
             }
         }

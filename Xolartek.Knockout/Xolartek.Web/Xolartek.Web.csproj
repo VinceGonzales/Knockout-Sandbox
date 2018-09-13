@@ -283,6 +283,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataViewModel.cs" />
     <Compile Include="Models\Extensions\KoExtensions.cs" />
     <Compile Include="Models\HeroVM.cs" />
     <Compile Include="Models\Repository.cs" />

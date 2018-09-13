@@ -62,6 +62,7 @@
     <Folder Include="Hydrate" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Scripts" />
+    <Folder Include="Inserts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\Initialize.sql" />
@@ -74,9 +75,8 @@
     <None Include="StoredProcedures\AddHero.sql" />
     <None Include="StoredProcedures\AddSchematic.sql" />
     <None Include="StoredProcedures\AddSkill.sql" />
-    <None Include="StoredProcedures\AddTraitImpact.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <Build Include="Scripts\UpdateColumns.sql" />
+    <None Include="Scripts\UpdateColumns.sql" />
+    <None Include="Inserts\Materials.sql" />
+    <None Include="Inserts\Rarities.sql" />
   </ItemGroup>
 </Project>
