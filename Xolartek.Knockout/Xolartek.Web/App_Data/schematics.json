@@ -18,4 +18,3385 @@ $("table.schematics tbody tr").each(function(index, element) {
 });
 console.log(JSON.stringify(Schematics));
 */
-[{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-45-Silenced-L.png","name":"Whisper .45","level":"40","stars":4,"description":"Schematic:sid_pistol_silenced_military_sr_ore_t04","stat":[{"name":" Damage","value":"25%"},{"name":" Magazine Size","value":"50%"},{"name":"DamageElement: Nature","value":"10%"},{"name":" Headshot Damage","value":"27%"},{"name":" Damage to afflicted targets","value":"37.5%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Drum-Assault-L.png","name":"Nailer","level":"40","stars":4,"description":"Schematic:sid_assault_hydraulic_drum_sr_ore_t04","stat":[{"name":"Critical Rating","value":"+20"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"22.5%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-L.png","name":"Hydra","level":"40","stars":4,"description":"Schematic:sid_assault_hydra_sr_ore_t04","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"38%"},{"name":" Damage","value":"20%"},{"name":"Critical Damage","value":"68%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Bolt-Pistol-L.png","name":"Bolt Bolt","level":"40","stars":4,"description":"Schematic:sid_pistol_bolt_sr_crystal_t04","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Pistol-L.png","name":"Krypton Pistol","level":"35","stars":4,"description":"Schematic:sid_pistol_neonglow_sr_crystal_t04","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Magazine Size","value":"25%"},{"name":" Damage","value":"20%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Wall-Spike-SM-L.png","name":"Wall Spikes","level":"35","stars":4,"description":"Schematic:sid_wall_wood_spikes_sr_t04","stat":[{"name":"DamageElement: Physical","value":"32%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"20%"},{"name":"Critical Rating","value":"+20"},{"name":"Critical Damage","value":"90%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Floor-Spike-L.png","name":"Wooden Floor Spikes","level":"35","stars":4,"description":"Schematic:sid_floor_spikes_wood_sr_t04","stat":[{"name":"DamageElement: Physical","value":"32%"},{"name":" Damage","value":"20%"},{"name":"Critical Damage","value":"68%"},{"name":"Critical Rating","value":"+20"},{"name":"Critical Damage","value":"68%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Solid-Wall-Trap-test-L.png","name":"Wall Darts","level":"35","stars":4,"description":"Schematic:sid_wall_darts_sr_t04","stat":[{"name":"DamageElement: Physical","value":"32%"},{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"21%"},{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"21%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Electric-Trap-Wall-L.png","name":"Wall Dynamo","level":"35","stars":4,"description":"Schematic:sid_wall_electric_sr_t04","stat":[{"name":"DamageElement: Nature","value":"10%"},{"name":"Critical Rating","value":"+15"},{"name":" Reload Speed","value":"21%"},{"name":" Damage","value":"20%"},{"name":"Critical Damage","value":"68%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Spike-Trap-Floor-Base-L.png","name":"Retractable Floor Spikes","level":"35","stars":4,"description":"Schematic:sid_floor_spikes_sr_t04","stat":[{"name":"DamageElement: Physical","value":"26%"},{"name":" Durability","value":"21%"},{"name":"Critical Damage","value":"68%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"20%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-NeonGlow-Sniper-L.png","name":"Neon Sniper Rifle","level":"35","stars":4,"description":"Schematic:sid_sniper_neonglow_sr_crystal_t04","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage","value":"20%"},{"name":" Magazine Size","value":"50%"},{"name":" Headshot Damage","value":"27%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-electric-ceiling-Trap.png","name":"Ceiling Electric Field","level":"35","stars":4,"description":"Schematic:sid_ceiling_electric_aoe_sr_t04","stat":[{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"15%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage","value":"20%"},{"name":" Reload Speed","value":"28%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-02-L.png","name":"Falcon","level":"35","stars":4,"description":"Schematic:sid_pistol_handcannon_semi_sr_ore_t04","stat":[{"name":" Damage","value":"20%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Water","value":"10%"},{"name":" Damage","value":"30%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Crossbow-Valentines-L.png","name":"Heartbreaker","level":"35","stars":4,"description":"Schematic:sid_sniper_crossbow_sr_crystal_t04","stat":[{"name":"DamageElement: Physical","value":"32%"},{"name":" Damage","value":"15%"},{"name":" Magazine Size","value":"38%"},{"name":"Critical Rating","value":"+15"},{"name":"Critical Damage","value":"90%"},{"name":" Weapon Damage when aiming down sights","value":"30%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-M249-L.png","name":"HackSAW","level":"35","stars":4,"description":"Schematic:sid_assault_lmg_military_sr_crystal_t04","stat":[{"name":" Fire Rate","value":"21%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Reload Speed","value":"50%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Sword-L.png","name":"Dragon's Tooth","level":"30","stars":3,"description":"Schematic:sid_edged_sword_dragon_sr_ore_t03","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Life Leech","value":"1.6%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Launcher-L.png","name":"Dam Buster","level":"30","stars":3,"description":"Schematic:sid_launcher_hydraulic_sr_ore_t03","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-02BR-L.png","name":"Bald Eagle","level":"30","stars":3,"description":"Schematic:sid_pistol_handcannon_de_sr_ore_t03","stat":[{"name":"Critical Damage","value":"90%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Monsoon-L.png","name":"Monsoon","level":"30","stars":3,"description":"Schematic:sid_pistol_gatling_sr_ore_t03","stat":[{"name":"Critical Rating","value":"+20"},{"name":" Magazine Size","value":"50%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Headshot Damage","value":"27%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Wall-Launcher-Trap-L.png","name":"Wall Launcher","level":"30","stars":3,"description":"Schematic:sid_wall_launcher_sr_t03","stat":[{"name":" ImpactKnockback","value":"7.5%"},{"name":" Reload Speed","value":"21%"},{"name":" ImpactKnockback","value":"10%"},{"name":" Reload Speed","value":"21%"},{"name":" ImpactKnockback","value":"10%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Ceiling-Electric-Weak-Trap-L.png","name":"Ceiling Zapper","level":"30","stars":3,"description":"Schematic:sid_ceiling_electric_single_sr_t03","stat":[{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Reload Speed","value":"21%"},{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"28%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Military-M4A1-L.png","name":"Tiger","level":"30","stars":3,"description":"Schematic:sid_assault_military_surgical_sr_ore_t03","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Energy","value":"5%"},{"name":"Critical Rating","value":"+20"},{"name":" Headshot Damage","value":"27%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Shredder-L.png","name":"Super Shredder","level":"30","stars":3,"description":"Schematic:sid_sniper_shredder_sr_ore_t03","stat":[{"name":" Reload Speed","value":"38%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Enemy-JumpPad-Floor-L.png","name":"Floor Launcher","level":"30","stars":3,"description":"Schematic:sid_floor_launcher_sr_t03","stat":[{"name":" ImpactKnockback","value":"7.5%"},{"name":" Reload Speed","value":"21%"},{"name":" ImpactKnockback","value":"7.5%"},{"name":" Reload Speed","value":"28%"},{"name":" Durability","value":"28%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-SCAR-L.png","name":"Siegebreaker","level":"30","stars":3,"description":"Schematic:sid_assault_auto_sr_ore_t03","stat":[{"name":" Fire Rate","value":"21%"},{"name":" Durability","value":"28%"},{"name":"DamageElement: Water","value":"10%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Sword-L.png","name":"Krypton Sword","level":"30","stars":4,"description":"Schematic:sid_edged_sword_neonglow_sr_crystal_t04","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Durability","value":"28%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to slowedsnared targets.","value":"22.5%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Ceiling-Gas-Trap-L.png","name":"Ceiling Gas Trap","level":"30","stars":3,"description":"Schematic:sid_ceiling_gas_sr_t03","stat":[{"name":"DamageElement: Physical","value":"32%"},{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"21%"},{"name":"Critical Rating","value":"+15"},{"name":"Critical Damage","value":"90%"},{"name":" Effect Duration","value":"20%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Shotgun-L.png","name":"Helium Shotgun","level":"25","stars":3,"description":"Schematic:sid_shotgun_neonglow_sr_ore_t03","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Durability","value":"21%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-Auto-L.png","name":"Thrasher","level":"25","stars":3,"description":"Schematic:sid_pistol_autoheavy_sr_ore_t03","stat":[{"name":"Critical Rating","value":"+15"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Headshot Damage","value":"20%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Floor-HealthSquare-L.png","name":"Healing Pad","level":"25","stars":3,"description":"Schematic:sid_floor_health_sr_t03","stat":[{"name":" Healing Amount","value":"15%"},{"name":" Reload Speed","value":"14%"},{"name":" Healing Amount","value":"20%"},{"name":" Reload Speed","value":"21%"},{"name":" Healing Amount","value":"20%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Shotgun-02-Auto-L.png","name":"Room Sweeper","level":"25","stars":3,"description":"Schematic:sid_shotgun_minigun_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Water","value":"10%"},{"name":"Critical Rating","value":"+10"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-TIOD-L.png","name":"Tiny Instrument of Death","level":"25","stars":3,"description":"Schematic:sid_pistol_rocket_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"50%"},{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sledgehammer-L.png","name":"Walloper","level":"25","stars":3,"description":"Schematic:sid_blunt_hammer_flintlock_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Heavy Attack Stamina Efficiency","value":"15%"},{"name":"DamageElement: Nature","value":"5%"},{"name":" Damage Resistance","value":"16.5%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Arctic-Sniper-L.png","name":"Frostbite","level":"25","stars":3,"description":"Schematic:sid_sniper_standard_winter_sr_ore_t03","stat":[{"name":"DamageElement: Water","value":"10%"},{"name":" Damage","value":"10%"},{"name":" Weapon Stability","value":"30%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"20%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Sword-L.png","name":"Pressure Cutter","level":"25","stars":3,"description":"Schematic:sid_edged_sword_hydraulic_sr_ore_t03","stat":[{"name":" Damage","value":"20%"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Water","value":"10%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to afflicted targets","value":"22.5%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-SAW-01-L.png","name":"Terminator","level":"25","stars":3,"description":"Schematic:sid_assault_lmg_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"25%"},{"name":"DamageElement: Nature","value":"10%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-VT-Launcher-L.png","name":"Vacuum Tube Launcher","level":"25","stars":3,"description":"Schematic:sid_launcher_vacuumtube_sr_ore_t03","stat":[{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"10%"},{"name":" Reload Speed","value":"50%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryWarHammer-L.png","name":"Doomhammer","level":"25","stars":3,"description":"Schematic:sid_blunt_hammer_heavy_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Durability","value":"14%"},{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"22.5%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryMachete-MilitaryMachete-L.png","name":"Stabsworth the III","level":"25","stars":3,"description":"Schematic:sid_edged_sword_light_sr_ore_t03","stat":[{"name":" Damage","value":"15%"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-DragonGun-L.png","name":"Dragon's Breath","level":"25","stars":3,"description":"Schematic:sid_pistol_dragon_sr_ore_t03","stat":[{"name":" Damage","value":"20%"},{"name":" Reload Speed","value":"50%"},{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Increases impact by 40%. Stun duration increased by 1s.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-VinderTech-Sledgehammer-L.png","name":"Vindertech Slammer","level":"25","stars":3,"description":"Schematic:sid_blunt_hammer_rocket_vt_sr_ore_t03","stat":[{"name":" Life Leech","value":"1.2%"},{"name":" Damage Resistance","value":"13%"},{"name":"DamageElement: Water","value":"10%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Hammer-L.png","name":"Dragon's Fist","level":"25","stars":3,"description":"Schematic:sid_blunt_hammer_heavy_dragon_sr_ore_t03","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Damage","value":"68%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"15%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Drum-Assault-L.png","name":"DragonFire","level":"25","stars":3,"description":"Schematic:sid_shotgun_dragon_drum_sr_ore_t03","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Damage","value":"45%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-BreakAction-L.png","name":"Dragoon","level":"25","stars":3,"description":"Schematic:sid_shotgun_break_flintlock_sr_ore_t03","stat":[{"name":"Critical Rating","value":"+20"},{"name":"Critical Rating","value":"+20"},{"name":"DamageElement: Physical","value":"26%"},{"name":" Damage","value":"20%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySMG-Silenced-L.png","name":"Silenced Specter","level":"20","stars":2,"description":"Schematic:sid_assault_smg_silenced_military_sr_ore_t02","stat":[{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Nature","value":"5%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-50cal-Barret-Sniper-L.png","name":"Obliterator","level":"20","stars":2,"description":"Schematic:sid_sniper_military_sr_ore_t02","stat":[{"name":" Fire Rate","value":"28%"},{"name":" Impact","value":"40%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-electric-ceiling-Trap.png","name":"Ceiling Electric Field","level":"20","stars":2,"description":"Schematic:sid_ceiling_electric_aoe_sr_t02","stat":[{"name":"Element: Nature","value":""},{"name":" Damage","value":"15%"},{"name":" Damage","value":"15%"},{"name":"Critical Rating","value":"+15"},{"name":" Durability","value":"28%"},{"name":"Heals attached building 3.2% of its Max Health every 10 seconds","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Drum-Assault-L.png","name":"Mercury LMG","level":"20","stars":2,"description":"Schematic:sid_assault_neonglow_lmg_sr_ore_t02","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":" Damage","value":"20%"},{"name":"Critical Rating","value":"+15"},{"name":" Weapon Stability","value":"40%"},{"name":" Fire Rate","value":"21%"},{"name":"Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Ward-Proto-L.png","name":"Patrol Ward","level":"20","stars":2,"description":"Schematic:sid_floor_ward_sr_t02","stat":[]},{"imgurl":"https://assets.stormshield.one/T-Icon-BR-SM-Athena-Campfire-L.png","name":"Cozy Campfire","level":"20","stars":2,"description":"Schematic:sid_floor_campfire_sr_t02","stat":[{"name":" Healing Amount","value":"10%"},{"name":" Healing Amount","value":"15%"},{"name":" Healing Amount","value":"20%"},{"name":" Reload Speed","value":"28%"},{"name":" Healing Amount","value":"20%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Hunting-Rifle-01-L.png","name":"Dragonfly","level":"20","stars":2,"description":"Schematic:sid_sniper_standard_sr_ore_t02","stat":[{"name":" Damage","value":"20%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Nature","value":"10%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Spike-Trap-Floor-Base-L.png","name":"Retractable Floor Spikes","level":"20","stars":2,"description":"Schematic:sid_floor_spikes_sr_t02","stat":[{"name":"DamageElement: Physical","value":"20%"},{"name":" Durability","value":"14%"},{"name":"Critical Damage","value":"68%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"20%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Launcher-L.png","name":"Noble Launcher","level":"20","stars":2,"description":"Schematic:sid_explosive_launcher_neonglow_sr_ore_t02","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":" Reload Speed","value":"38%"},{"name":" Fire Rate","value":"21%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Light-Trap-wall.png","name":"Wall Lights","level":"20","stars":2,"description":"Schematic:sid_wall_light_sr_t02","stat":[{"name":" ImpactKnockback","value":"10%"},{"name":" Reload Speed","value":"21%"},{"name":" ImpactKnockback","value":"10%"},{"name":" Reload Speed","value":"28%"},{"name":" ImpactKnockback","value":"10%"},{"name":" Effect Duration","value":"10%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-RPG7-L.png","name":"Bazooka","level":"20","stars":2,"description":"Schematic:sid_launcher_rocket_sr_ore_t02","stat":[{"name":"Critical Rating","value":"+10"},{"name":" Reload Speed","value":"25%"},{"name":"DamageElement: Water","value":"10%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Electric-Trap-Wall-L.png","name":"Wall Dynamo","level":"20","stars":2,"description":"Schematic:sid_wall_electric_sr_t02","stat":[{"name":"Element: Nature","value":""},{"name":" Durability","value":"14%"},{"name":" Durability","value":"21%"},{"name":" Damage","value":"20%"},{"name":" Reload Speed","value":"28%"},{"name":"Heals attached building 3.2% of its Max Health every 10 seconds","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Military-M202-Launcher-L.png","name":"Quad Launcher","level":"20","stars":2,"description":"Schematic:sid_explosive_launcher_military_sr_ore_t02","stat":[{"name":"DamageElement: Fire","value":"5%"},{"name":" Durability","value":"14%"},{"name":" Reload Speed","value":"38%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Assault-L.png","name":"Bundlebuss","level":"20","stars":2,"description":"Schematic:sid_assault_flintlock_sr_ore_t02","stat":[{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Damage","value":"20%"},{"name":" Damage","value":"20%"},{"name":"Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Floor-Spike-L.png","name":"Wooden Floor Spikes","level":"20","stars":2,"description":"Schematic:sid_floor_spikes_wood_sr_t02","stat":[{"name":"DamageElement: Physical","value":"20%"},{"name":"Critical Rating","value":"+10"},{"name":" Damage","value":"15%"},{"name":" Durability","value":"28%"},{"name":" Durability","value":"21%"},{"name":"Heals attached building 3.2% of its Max Health every 10 seconds","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SM-Flame-Grill-Trap.png","name":"Flame Grill Floor Trap","level":"20","stars":2,"description":"Schematic:sid_floor_flamegrill_sr_t02","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"15%"},{"name":"Critical Damage","value":"45%"},{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"21%"},{"name":" Effect Duration","value":"20%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Solid-Wall-Trap-test-L.png","name":"Wall Darts","level":"20","stars":2,"description":"Schematic:sid_wall_darts_sr_t02","stat":[{"name":"DamageElement: Physical","value":"20%"},{"name":"Critical Rating","value":"+15"},{"name":" Durability","value":"21%"},{"name":" Durability","value":"21%"},{"name":" Reload Speed","value":"21%"},{"name":" Increased Building Health","value":"11%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SM-egg-launcher-01-L.png","name":"Easter Egg Launcher","level":"20","stars":2,"description":"Schematic:sid_launcher_grenade_easter_sr_ore_t02","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage","value":"20%"},{"name":" Durability","value":"28%"},{"name":"Critical Damage","value":"45%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Floor-Freeze-L.png","name":"Floor Freeze Trap","level":"20","stars":2,"description":"Schematic:sid_floor_freeze_sr_t02","stat":[{"name":" ImpactKnockback","value":"10%"},{"name":" Reload Speed","value":"14%"},{"name":" Durability","value":"28%"},{"name":" Reload Speed","value":"21%"},{"name":" ImpactKnockback","value":"10%"},{"name":" Effect Duration","value":"20%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Grenade-Launcher-L.png","name":"Thumper","level":"20","stars":2,"description":"Schematic:sid_launcher_grenade_sr_ore_t02","stat":[{"name":" Damage","value":"15%"},{"name":" Reload Speed","value":"25%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Revolver-L.png","name":"Duelist","level":"20","stars":2,"description":"Schematic:sid_pistol_flintlock_sr_ore_t02","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Energy","value":"5%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Cieling-Drop-TrapPickup-L.png","name":"Ceiling Drop Trap","level":"15","stars":2,"description":"Schematic:sid_ceiling_falling_sr_t02","stat":[{"name":"DamageElement: Physical","value":"20%"},{"name":" Damage","value":"10%"},{"name":" Reload Speed","value":"21%"},{"name":"Critical Rating","value":"+20"},{"name":" Reload Speed","value":"28%"},{"name":" Durability","value":"28%"}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-PDW-L.png","name":"Bobcat","level":"10","stars":1,"description":"Schematic:sid_assault_military_auto_sr_ore_t01","stat":[{"name":" Fire Rate","value":"21%"},{"name":" Damage","value":"10%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Magazine Size","value":"38%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Shotgun-L.png","name":"Dragon's Might","level":"10","stars":1,"description":"Schematic:sid_shotgun_dragon_sr_ore_t01","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Damage","value":"90%"},{"name":" Magazine Size","value":"25%"},{"name":" Damage","value":"20%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Magnum-L.png","name":"Judge","level":"10","stars":1,"description":"Schematic:sid_pistol_handcannon_sr_ore_t01","stat":[{"name":"Critical Rating","value":"+10"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Physical","value":"26%"},{"name":" Magazine Size","value":"38%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Crossbow-L.png","name":"Crossbow","level":"10","stars":1,"description":"Schematic:sid_sniper_crossbow_military_sr_ore_t01","stat":[{"name":" Damage","value":"10%"},{"name":" Weapon Stability","value":"30%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Double-D-L.png","name":"Founder's Revolt","level":"10","stars":1,"description":"Schematic:sid_pistol_rapid_founders_vr_ore_t01","stat":[{"name":" Headshot Damage","value":"13%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Reload Speed","value":"50%"},{"name":"Bullets chain to one nearby target.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-L.png","name":"Hydra","level":"1","stars":1,"description":"Schematic:sid_assault_hydra_sr_ore_t01","stat":[{"name":"DamageElement: Energy","value":"5%"},{"name":"Critical Rating","value":"+10"},{"name":" Reload Speed","value":"38%"},{"name":" Damage","value":"15%"},{"name":"Critical Damage","value":"90%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-HammerShotGun-L.png","name":"Hammercrush","level":"1","stars":1,"description":"Schematic:sid_assault_singleshot_sr_ore_t01","stat":[{"name":" Reload Speed","value":"25%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Physical","value":"26%"},{"name":" Damage","value":"15%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-ProtoAssault-L.png","name":"Razorblade","level":"1","stars":1,"description":"Schematic:sid_assault_burst_sr_ore_t01","stat":[{"name":" Fire Rate","value":"14%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Physical","value":"26%"},{"name":" Damage","value":"20%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Bat-L.png","name":"Sir Hootie","level":"1","stars":1,"description":"Schematic:sid_blunt_heavy_flintlock_sr_ore_t01","stat":[{"name":"+.8% Life Leech","value":""},{"name":" Impact","value":"30%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySpear-MilitarySpear-L.png","name":"Whirling Doom","level":"1","stars":1,"description":"Schematic:sid_piercing_spear_sr_ore_t01","stat":[{"name":" Damage","value":"10%"},{"name":" Life Leech","value":"1.6%"},{"name":"DamageElement: Water","value":"10%"},{"name":" Damage","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Assault-01-L.png","name":"Hunter-killer","level":"1","stars":1,"description":"Schematic:sid_assault_semiauto_sr_ore_t01","stat":[{"name":"Critical Rating","value":"+15"},{"name":" Magazine Size","value":"50%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-RocketHammer-L.png","name":"Husk Stomper","level":"1","stars":1,"description":"Schematic:sid_blunt_hammer_rocket_sr_ore_t01","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Damage Resistance","value":"13%"},{"name":"DamageElement: Physical","value":"32%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Space-Pistol-L.png","name":"Space Invader","level":"1","stars":1,"description":"Schematic:sid_pistol_space_sr_ore_t01","stat":[{"name":"Critical Damage","value":"45%"},{"name":" Reload Speed","value":"38%"},{"name":"DamageElement: Energy","value":"5%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-Shotgun-L.png","name":"Pummeller","level":"1","stars":1,"description":"Schematic:sid_shotgun_hydraulic_sr_ore_t01","stat":[{"name":" Damage","value":"10%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Headshot Damage","value":"27%"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Scythe-L.png","name":"Neon Scythe","level":"1","stars":1,"description":"Schematic:sid_edged_scythe_neonglow_sr_ore_t01","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Damage","value":"68%"},{"name":" Durability","value":"28%"},{"name":" Damage","value":"20%"},{"name":" Damage to slowedsnared targets.","value":"15%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySword-MilitarySword-L.png","name":"Slice n' Dice","level":"1","stars":1,"description":"Schematic:sid_edged_sword_medium_sr_ore_t01","stat":[{"name":"Critical Damage","value":"45%"},{"name":" Durability","value":"14%"},{"name":"DamageElement: Physical","value":"32%"},{"name":"Critical Damage","value":"68%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Crowbar-02-L.png","name":"Mr. Red","level":"1","stars":1,"description":"Schematic:sid_blunt_light_sr_ore_t01","stat":[{"name":"Critical Damage","value":"45%"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Raygun-Pistol-L.png","name":"Zap Zapp","level":"1","stars":1,"description":"Schematic:sid_pistol_zapper_sr_ore_t01","stat":[{"name":"DamageElement: Energy","value":"10%"},{"name":"Critical Damage","value":"45%"},{"name":" Magazine Size","value":"50%"},{"name":"Critical Rating","value":"+10"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"name":"Lightning Pistol","level":"1","stars":1,"description":"Schematic:sid_pistol_vacuumtube_auto_sr_ore_t01","stat":[{"name":"DamageElement: Nature","value":"5%"},{"name":"Critical Damage","value":"45%"},{"name":" Durability","value":"21%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Sword-Advanced-L.png","name":"Stormblade","level":"1","stars":1,"description":"Schematic:sid_edged_sword_medium_laser_sr_ore_t01","stat":[{"name":" Damage","value":"10%"},{"name":" Damage Resistance","value":"9%"},{"name":"DamageElement: Energy","value":"5%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-GolfClub-L.png","name":"Masters Driver","level":"1","stars":1,"description":"Schematic:sid_blunt_club_light_sr_ore_t01","stat":[{"name":" Damage","value":"15%"},{"name":" Heavy Attack Stamina Efficiency","value":"15%"},{"name":"DamageElement: Fire","value":"10%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-AMR-L.png","name":"Zapotron","level":"1","stars":1,"description":"Schematic:sid_sniper_amr_sr_ore_t01","stat":[{"name":"Element: Energy","value":""},{"name":"Critical Rating","value":"+10"},{"name":" Reload Speed","value":"38%"},{"name":"Critical Rating","value":"+15"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Post-Apocalyptic-Assault-L.png","name":"Buzzcut","level":"1","stars":1,"description":"Schematic:sid_assault_scavenger_sr_ore_t01","stat":[{"name":" Damage","value":"15%"},{"name":" Magazine Size","value":"38%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Spear-L.png","name":"Dragon's Fang","level":"1","stars":1,"description":"Schematic:sid_piercing_spear_dragon_sr_ore_t01","stat":[{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Durability","value":"21%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"15%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-DoubleTrouble-DoubleTrouble-L.png","name":"Thunderbolt","level":"1","stars":1,"description":"Schematic:sid_shotgun_break_sr_ore_t01","stat":[{"name":"Critical Rating","value":"+10"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Scythe-L.png","name":"Fishing Hook","level":"1","stars":1,"description":"Schematic:sid_edged_scythe_flintlock_sr_ore_t01","stat":[{"name":" Damage","value":"15%"},{"name":" Damage Resistance","value":"9%"},{"name":"DamageElement: Physical","value":"26%"},{"name":" Damage","value":"15%"},{"name":" Damage to slowedsnared targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryDoubleAxe-L.png","name":"Stormchaser's Revenge","level":"1","stars":1,"description":"Schematic:sid_edged_axe_heavy_sr_ore_t01","stat":[{"name":"+.8% Life Leech","value":""},{"name":" Damage Resistance","value":"9%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Rating","value":"+20"},{"name":" Damage to Mist MonstersBosses","value":"24%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-Sniper-01-L.png","name":"Scoped Dragonfly","level":"1","stars":1,"description":"Schematic:sid_sniper_standard_scope_sr_ore_t01","stat":[{"name":"Critical Damage","value":"45%"},{"name":" Weapon Stability","value":"20%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Damage","value":"90%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Shotgun-04-Heavy-L.png","name":"Backbreaker","level":"1","stars":1,"description":"Schematic:sid_shotgun_heavy_sr_ore_t01","stat":[{"name":"Critical Damage","value":"45%"},{"name":" Reload Speed","value":"50%"},{"name":"DamageElement: Fire","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-DrumGun-L.png","name":"Typewriter","level":"1","stars":1,"description":"Schematic:sid_assault_autodrum_sr_ore_t01","stat":[{"name":" Damage","value":"15%"},{"name":" Magazine Size","value":"25%"},{"name":"DamageElement: Physical","value":"26%"},{"name":"Critical Rating","value":"+15"},{"name":"Critical Damage","value":"90%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-FireAxe-Advanced-L.png","name":"Armaggeddon","level":"1","stars":1,"description":"Schematic:sid_edged_axe_medium_laser_sr_ore_t01","stat":[{"name":"Critical Damage","value":"68%"},{"name":" Damage Resistance","value":"13%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Heavy Attack Stamina Efficiency","value":"15%"},{"name":" Damage to afflicted targets","value":"30%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Longarm-Enforcer-L.png","name":"Longarm Enforcer","level":"1","stars":1,"description":"Schematic:sid_shotgun_longarm_sr_ore_t01","stat":[{"name":" Damage","value":"10%"},{"name":" Durability","value":"21%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Damage","value":"20%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sniper-LowTier-L.png","name":"Ol' Betsy","level":"1","stars":1,"description":"Schematic:sid_sniper_flintlock_sr_ore_t01","stat":[{"name":" Reload Speed","value":"25%"},{"name":" Impact","value":"20%"},{"name":"DamageElement: Energy","value":"5%"},{"name":" Damage","value":"20%"},{"name":" Damage","value":"20%"},{"name":"Causes Affliction damage for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sniper-HighTier-L.png","name":"Spyglass","level":"1","stars":1,"description":"Schematic:sid_sniper_flintlock_scope_sr_ore_t01","stat":[{"name":" Durability","value":"14%"},{"name":" Impact","value":"20%"},{"name":"DamageElement: Nature","value":"10%"},{"name":" Damage","value":"20%"},{"name":" Damage","value":"20%"},{"name":"Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Bolt-Rifle-With-Scope-L.png","name":"One Shot","level":"1","stars":1,"description":"Schematic:sid_sniper_boltaction_scope_sr_ore_t01","stat":[{"name":" Fire Rate","value":"14%"},{"name":" Reload Speed","value":"25%"},{"name":"DamageElement: Fire","value":"5%"},{"name":" Damage","value":"20%"},{"name":" Damage to stunned, staggered,knocked down targets.","value":"30%"},{"name":"Damage dealt with this weapon snares the target by 30% for 6 seconds.","value":""}]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Speedboost-Straight-L.png","name":"Boost Pad (Straight)","level":"1","stars":1,"description":"Schematic:sid_floor_hoverboard_speed_r_t01","stat":[]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-S-Floor-HealthSquare-L.png","name":"Healing Pad","level":"1","stars":0,"description":"Schematic:sid_floor_health_c_t00","stat":[]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-MachineGun-01-L.png","name":"Assault Rifle","level":"1","stars":0,"description":"Schematic:sid_assault_auto_c_ore_t00","stat":[]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-RulerSword-L.png","name":"Ruler Sword","level":"1","stars":0,"description":"Schematic:sid_edged_sword_medium_c_ore_t00","stat":[]},{"imgurl":"https://assets.stormshield.one/T-Icon-Weapons-SK-Vigilante-L.png","name":"Semi-Auto Handgun","level":"1","stars":0,"description":"Schematic:sid_pistol_semiauto_c_ore_t00","stat":[]}]
+[
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-45-Silenced-L.png",
+    "name": "Whisper .45",
+    "level": "40",
+    "stars": 4,
+    "description": "Schematic:sid_pistol_silenced_military_sr_ore_t04",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "25%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "37.5%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Drum-Assault-L.png",
+    "name": "Nailer",
+    "level": "40",
+    "stars": 4,
+    "description": "Schematic:sid_assault_hydraulic_drum_sr_ore_t04",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "22.5%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-L.png",
+    "name": "Hydra",
+    "level": "40",
+    "stars": 4,
+    "description": "Schematic:sid_assault_hydra_sr_ore_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Bolt-Pistol-L.png",
+    "name": "Bolt Bolt",
+    "level": "40",
+    "stars": 4,
+    "description": "Schematic:sid_pistol_bolt_sr_crystal_t04",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Pistol-L.png",
+    "name": "Krypton Pistol",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_pistol_neonglow_sr_crystal_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Wall-Spike-SM-L.png",
+    "name": "Wall Spikes",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_wall_wood_spikes_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Floor-Spike-L.png",
+    "name": "Wooden Floor Spikes",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_floor_spikes_wood_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Solid-Wall-Trap-test-L.png",
+    "name": "Wall Darts",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_wall_darts_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Electric-Trap-Wall-L.png",
+    "name": "Wall Dynamo",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_wall_electric_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Spike-Trap-Floor-Base-L.png",
+    "name": "Retractable Floor Spikes",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_floor_spikes_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-NeonGlow-Sniper-L.png",
+    "name": "Neon Sniper Rifle",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_sniper_neonglow_sr_crystal_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "50%"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-electric-ceiling-Trap.png",
+    "name": "Ceiling Electric Field",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_ceiling_electric_aoe_sr_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-02-L.png",
+    "name": "Falcon",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_pistol_handcannon_semi_sr_ore_t04",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "30%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Crossbow-Valentines-L.png",
+    "name": "Heartbreaker",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_sniper_crossbow_sr_crystal_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Weapon Damage when aiming down sights",
+        "value": "30%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-M249-L.png",
+    "name": "HackSAW",
+    "level": "35",
+    "stars": 4,
+    "description": "Schematic:sid_assault_lmg_military_sr_crystal_t04",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "21%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Sword-L.png",
+    "name": "Dragon's Tooth",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_edged_sword_dragon_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Life Leech",
+        "value": "1.6%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Launcher-L.png",
+    "name": "Dam Buster",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_launcher_hydraulic_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-02BR-L.png",
+    "name": "Bald Eagle",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_pistol_handcannon_de_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Monsoon-L.png",
+    "name": "Monsoon",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_pistol_gatling_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Wall-Launcher-Trap-L.png",
+    "name": "Wall Launcher",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_wall_launcher_sr_t03",
+    "stat": [
+      {
+        "name": " ImpactKnockback",
+        "value": "7.5%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Ceiling-Electric-Weak-Trap-L.png",
+    "name": "Ceiling Zapper",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_ceiling_electric_single_sr_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Military-M4A1-L.png",
+    "name": "Tiger",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_assault_military_surgical_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Shredder-L.png",
+    "name": "Super Shredder",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_sniper_shredder_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Enemy-JumpPad-Floor-L.png",
+    "name": "Floor Launcher",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_floor_launcher_sr_t03",
+    "stat": [
+      {
+        "name": " ImpactKnockback",
+        "value": "7.5%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "7.5%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-SCAR-L.png",
+    "name": "Siegebreaker",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_assault_auto_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "21%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Sword-L.png",
+    "name": "Krypton Sword",
+    "level": "30",
+    "stars": 4,
+    "description": "Schematic:sid_edged_sword_neonglow_sr_crystal_t04",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "22.5%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Ceiling-Gas-Trap-L.png",
+    "name": "Ceiling Gas Trap",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_ceiling_gas_sr_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Effect Duration",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Shotgun-L.png",
+    "name": "Helium Shotgun",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_shotgun_neonglow_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Pistol-Auto-L.png",
+    "name": "Thrasher",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_pistol_autoheavy_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Floor-HealthSquare-L.png",
+    "name": "Healing Pad",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_floor_health_sr_t03",
+    "stat": [
+      {
+        "name": " Healing Amount",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "14%"
+      },
+      {
+        "name": " Healing Amount",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " Healing Amount",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Shotgun-02-Auto-L.png",
+    "name": "Room Sweeper",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_shotgun_minigun_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-TIOD-L.png",
+    "name": "Tiny Instrument of Death",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_pistol_rocket_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sledgehammer-L.png",
+    "name": "Walloper",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_blunt_hammer_flintlock_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Heavy Attack Stamina Efficiency",
+        "value": "15%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "5%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "16.5%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Arctic-Sniper-L.png",
+    "name": "Frostbite",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_sniper_standard_winter_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Weapon Stability",
+        "value": "30%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydraulic-Sword-L.png",
+    "name": "Pressure Cutter",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_edged_sword_hydraulic_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "22.5%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-SAW-01-L.png",
+    "name": "Terminator",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_assault_lmg_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-VT-Launcher-L.png",
+    "name": "Vacuum Tube Launcher",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_launcher_vacuumtube_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryWarHammer-L.png",
+    "name": "Doomhammer",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_blunt_hammer_heavy_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "22.5%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryMachete-MilitaryMachete-L.png",
+    "name": "Stabsworth the III",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_edged_sword_light_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-DragonGun-L.png",
+    "name": "Dragon's Breath",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_pistol_dragon_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Increases impact by 40%. Stun duration increased by 1s.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-VinderTech-Sledgehammer-L.png",
+    "name": "Vindertech Slammer",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_blunt_hammer_rocket_vt_sr_ore_t03",
+    "stat": [
+      {
+        "name": " Life Leech",
+        "value": "1.2%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "13%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Hammer-L.png",
+    "name": "Dragon's Fist",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_blunt_hammer_heavy_dragon_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Drum-Assault-L.png",
+    "name": "DragonFire",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_shotgun_dragon_drum_sr_ore_t03",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-BreakAction-L.png",
+    "name": "Dragoon",
+    "level": "25",
+    "stars": 3,
+    "description": "Schematic:sid_shotgun_break_flintlock_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySMG-Silenced-L.png",
+    "name": "Silenced Specter",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_assault_smg_silenced_military_sr_ore_t02",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-50cal-Barret-Sniper-L.png",
+    "name": "Obliterator",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_sniper_military_sr_ore_t02",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "28%"
+      },
+      {
+        "name": " Impact",
+        "value": "40%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-electric-ceiling-Trap.png",
+    "name": "Ceiling Electric Field",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_ceiling_electric_aoe_sr_t02",
+    "stat": [
+      {
+        "name": "Element: Nature",
+        "value": ""
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": "Heals attached building 3.2% of its Max Health every 10 seconds",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Drum-Assault-L.png",
+    "name": "Mercury LMG",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_assault_neonglow_lmg_sr_ore_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Weapon Stability",
+        "value": "40%"
+      },
+      {
+        "name": " Fire Rate",
+        "value": "21%"
+      },
+      {
+        "name": "Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Ward-Proto-L.png",
+    "name": "Patrol Ward",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_ward_sr_t02",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-BR-SM-Athena-Campfire-L.png",
+    "name": "Cozy Campfire",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_campfire_sr_t02",
+    "stat": [
+      {
+        "name": " Healing Amount",
+        "value": "10%"
+      },
+      {
+        "name": " Healing Amount",
+        "value": "15%"
+      },
+      {
+        "name": " Healing Amount",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " Healing Amount",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Hunting-Rifle-01-L.png",
+    "name": "Dragonfly",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_sniper_standard_sr_ore_t02",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Spike-Trap-Floor-Base-L.png",
+    "name": "Retractable Floor Spikes",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_spikes_sr_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Launcher-L.png",
+    "name": "Noble Launcher",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_explosive_launcher_neonglow_sr_ore_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": " Fire Rate",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Light-Trap-wall.png",
+    "name": "Wall Lights",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_wall_light_sr_t02",
+    "stat": [
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Effect Duration",
+        "value": "10%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-RPG7-L.png",
+    "name": "Bazooka",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_launcher_rocket_sr_ore_t02",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Electric-Trap-Wall-L.png",
+    "name": "Wall Dynamo",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_wall_electric_sr_t02",
+    "stat": [
+      {
+        "name": "Element: Nature",
+        "value": ""
+      },
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": "Heals attached building 3.2% of its Max Health every 10 seconds",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Military-M202-Launcher-L.png",
+    "name": "Quad Launcher",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_explosive_launcher_military_sr_ore_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "5%"
+      },
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Assault-L.png",
+    "name": "Bundlebuss",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_assault_flintlock_sr_ore_t02",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Landing 5 hits in a row on a single target causes a small explosion damaging enemies within 0.5 tiles of the target for 30% damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Wood-Floor-Spike-L.png",
+    "name": "Wooden Floor Spikes",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_spikes_wood_sr_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "Heals attached building 3.2% of its Max Health every 10 seconds",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SM-Flame-Grill-Trap.png",
+    "name": "Flame Grill Floor Trap",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_flamegrill_sr_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " Effect Duration",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Solid-Wall-Trap-test-L.png",
+    "name": "Wall Darts",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_wall_darts_sr_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "20%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " Increased Building Health",
+        "value": "11%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SM-egg-launcher-01-L.png",
+    "name": "Easter Egg Launcher",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_launcher_grenade_easter_sr_ore_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Floor-Freeze-L.png",
+    "name": "Floor Freeze Trap",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_floor_freeze_sr_t02",
+    "stat": [
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "14%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": " ImpactKnockback",
+        "value": "10%"
+      },
+      {
+        "name": " Effect Duration",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Grenade-Launcher-L.png",
+    "name": "Thumper",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_launcher_grenade_sr_ore_t02",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Revolver-L.png",
+    "name": "Duelist",
+    "level": "20",
+    "stars": 2,
+    "description": "Schematic:sid_pistol_flintlock_sr_ore_t02",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Cieling-Drop-TrapPickup-L.png",
+    "name": "Ceiling Drop Trap",
+    "level": "15",
+    "stars": 2,
+    "description": "Schematic:sid_ceiling_falling_sr_t02",
+    "stat": [
+      {
+        "name": "DamageElement: Physical",
+        "value": "20%"
+      },
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "28%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-PDW-L.png",
+    "name": "Bobcat",
+    "level": "10",
+    "stars": 1,
+    "description": "Schematic:sid_assault_military_auto_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Shotgun-L.png",
+    "name": "Dragon's Might",
+    "level": "10",
+    "stars": 1,
+    "description": "Schematic:sid_shotgun_dragon_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Magnum-L.png",
+    "name": "Judge",
+    "level": "10",
+    "stars": 1,
+    "description": "Schematic:sid_pistol_handcannon_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Crossbow-L.png",
+    "name": "Crossbow",
+    "level": "10",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_crossbow_military_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Weapon Stability",
+        "value": "30%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Double-D-L.png",
+    "name": "Founder's Revolt",
+    "level": "10",
+    "stars": 1,
+    "description": "Schematic:sid_pistol_rapid_founders_vr_ore_t01",
+    "stat": [
+      {
+        "name": " Headshot Damage",
+        "value": "13%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": "Bullets chain to one nearby target.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-L.png",
+    "name": "Hydra",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_hydra_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-HammerShotGun-L.png",
+    "name": "Hammercrush",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_singleshot_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-ProtoAssault-L.png",
+    "name": "Razorblade",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_burst_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "14%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Bat-L.png",
+    "name": "Sir Hootie",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_blunt_heavy_flintlock_sr_ore_t01",
+    "stat": [
+      {
+        "name": "+.8% Life Leech",
+        "value": ""
+      },
+      {
+        "name": " Impact",
+        "value": "30%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySpear-MilitarySpear-L.png",
+    "name": "Whirling Doom",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_piercing_spear_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Life Leech",
+        "value": "1.6%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Assault-01-L.png",
+    "name": "Hunter-killer",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_semiauto_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-RocketHammer-L.png",
+    "name": "Husk Stomper",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_blunt_hammer_rocket_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "13%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Space-Pistol-L.png",
+    "name": "Space Invader",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_pistol_space_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Hydra-Shotgun-L.png",
+    "name": "Pummeller",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_shotgun_hydraulic_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Neon-Glow-Scythe-L.png",
+    "name": "Neon Scythe",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_scythe_neonglow_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Durability",
+        "value": "28%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "15%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitarySword-MilitarySword-L.png",
+    "name": "Slice n' Dice",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_sword_medium_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "32%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Crowbar-02-L.png",
+    "name": "Mr. Red",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_blunt_light_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Raygun-Pistol-L.png",
+    "name": "Zap Zapp",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_pistol_zapper_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Energy",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "50%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "name": "Lightning Pistol",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_pistol_vacuumtube_auto_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Nature",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Sword-Advanced-L.png",
+    "name": "Stormblade",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_sword_medium_laser_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "9%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-GolfClub-L.png",
+    "name": "Masters Driver",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_blunt_club_light_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Heavy Attack Stamina Efficiency",
+        "value": "15%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-AMR-L.png",
+    "name": "Zapotron",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_amr_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Element: Energy",
+        "value": ""
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "38%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Post-Apocalyptic-Assault-L.png",
+    "name": "Buzzcut",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_scavenger_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "38%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Dragon-Spear-L.png",
+    "name": "Dragon's Fang",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_piercing_spear_dragon_sr_ore_t01",
+    "stat": [
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "15%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-DoubleTrouble-DoubleTrouble-L.png",
+    "name": "Thunderbolt",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_shotgun_break_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+10"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Scythe-L.png",
+    "name": "Fishing Hook",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_scythe_flintlock_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "9%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to slowedsnared targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MilitaryDoubleAxe-L.png",
+    "name": "Stormchaser's Revenge",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_axe_heavy_sr_ore_t01",
+    "stat": [
+      {
+        "name": "+.8% Life Leech",
+        "value": ""
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "9%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": " Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-Sniper-01-L.png",
+    "name": "Scoped Dragonfly",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_standard_scope_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Weapon Stability",
+        "value": "20%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Shotgun-04-Heavy-L.png",
+    "name": "Backbreaker",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_shotgun_heavy_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "45%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "50%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-DrumGun-L.png",
+    "name": "Typewriter",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_assault_autodrum_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "15%"
+      },
+      {
+        "name": " Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Physical",
+        "value": "26%"
+      },
+      {
+        "name": "Critical Rating",
+        "value": "+15"
+      },
+      {
+        "name": "Critical Damage",
+        "value": "90%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-FireAxe-Advanced-L.png",
+    "name": "Armaggeddon",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_edged_axe_medium_laser_sr_ore_t01",
+    "stat": [
+      {
+        "name": "Critical Damage",
+        "value": "68%"
+      },
+      {
+        "name": " Damage Resistance",
+        "value": "13%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Heavy Attack Stamina Efficiency",
+        "value": "15%"
+      },
+      {
+        "name": " Damage to afflicted targets",
+        "value": "30%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Longarm-Enforcer-L.png",
+    "name": "Longarm Enforcer",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_shotgun_longarm_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Damage",
+        "value": "10%"
+      },
+      {
+        "name": " Durability",
+        "value": "21%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sniper-LowTier-L.png",
+    "name": "Ol' Betsy",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_flintlock_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": " Impact",
+        "value": "20%"
+      },
+      {
+        "name": "DamageElement: Energy",
+        "value": "5%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Causes Affliction damage for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Flintlock-Sniper-HighTier-L.png",
+    "name": "Spyglass",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_flintlock_scope_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Durability",
+        "value": "14%"
+      },
+      {
+        "name": " Impact",
+        "value": "20%"
+      },
+      {
+        "name": "DamageElement: Nature",
+        "value": "10%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": "Headshot eliminations cause an explosion, damaging enemies within 0.5 tiles for 30% weapon damage.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Bolt-Rifle-With-Scope-L.png",
+    "name": "One Shot",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_sniper_boltaction_scope_sr_ore_t01",
+    "stat": [
+      {
+        "name": " Fire Rate",
+        "value": "14%"
+      },
+      {
+        "name": " Reload Speed",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Fire",
+        "value": "5%"
+      },
+      {
+        "name": " Damage",
+        "value": "20%"
+      },
+      {
+        "name": " Damage to stunned, staggered,knocked down targets.",
+        "value": "30%"
+      },
+      {
+        "name": "Damage dealt with this weapon snares the target by 30% for 6 seconds.",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Speedboost-Straight-L.png",
+    "name": "Boost Pad (Straight)",
+    "level": "1",
+    "stars": 1,
+    "description": "Schematic:sid_floor_hoverboard_speed_r_t01",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-S-Floor-HealthSquare-L.png",
+    "name": "Healing Pad",
+    "level": "1",
+    "stars": 0,
+    "description": "Schematic:sid_floor_health_c_t00",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-MachineGun-01-L.png",
+    "name": "Assault Rifle",
+    "level": "1",
+    "stars": 0,
+    "description": "Schematic:sid_assault_auto_c_ore_t00",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-RulerSword-L.png",
+    "name": "Ruler Sword",
+    "level": "1",
+    "stars": 0,
+    "description": "Schematic:sid_edged_sword_medium_c_ore_t00",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-Vigilante-L.png",
+    "name": "Semi-Auto Handgun",
+    "level": "1",
+    "stars": 0,
+    "description": "Schematic:sid_pistol_semiauto_c_ore_t00",
+    "stat": []
+  },
+  {
+    "imgurl": "https://assets.stormshield.one/T-Icon-Weapons-SK-AutoHigh-Suppressed-L.png",
+    "name": "Wraith",
+    "level": "30",
+    "stars": 3,
+    "description": "Schematic:sid_assault_military_silenced_sr_ore_t03",
+    "stat": [
+      {
+        "name": "Critical Rating",
+        "value": "+20"
+      },
+      {
+        "name": "Magazine Size",
+        "value": "25%"
+      },
+      {
+        "name": "DamageElement: Water",
+        "value": "10%"
+      },
+      {
+        "name": "Headshot Damage",
+        "value": "27%"
+      },
+      {
+        "name": "Damage to Mist MonstersBosses",
+        "value": "24%"
+      },
+      {
+        "name": "Getting 5 headshots in a row increases ranged weapon damage +30% for 10 seconds.",
+        "value": ""
+      }
+    ]
+  }
+]

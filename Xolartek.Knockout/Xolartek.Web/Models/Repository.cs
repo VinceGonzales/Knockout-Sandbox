@@ -200,7 +200,7 @@ namespace Xolartek.Web.Models
         }
         #endregion
 
-        private void AddTraitImpact(string value, int schemaId, int traitId)
+        public void AddTraitImpact(string value, int schemaId, int traitId)
         {
             var result = ((XolarDatabase)db).Database.ExecuteSqlCommand("dbo.InsertTraitImpact @Impact, @TraitId, @SchematicId",
                 new SqlParameter("@Impact", value),

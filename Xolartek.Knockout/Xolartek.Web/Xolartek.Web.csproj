@@ -174,6 +174,7 @@
     <Content Include="Content\images\T-Constructor-HID-Constructor-Myth02-SR-T01-L.png" />
     <Content Include="Content\images\T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L.png" />
     <Content Include="Content\images\T-Constructor-HID-Constructor-Sony-R-T01-L.png" />
+    <Content Include="Content\images\T-Icon-Weapons-SK-AutoHigh-Suppressed-L.png" />
     <Content Include="Content\images\T-Ninja-HID-Ninja-007-SR-T01-L.png" />
     <Content Include="Content\images\T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L.png" />
     <Content Include="Content\images\T-Ninja-HID-Ninja-010-SR-T01-L.png" />
@@ -289,6 +290,7 @@
     <Compile Include="Models\Repository.cs" />
     <Compile Include="Models\SchematicVM.cs" />
     <Compile Include="Models\SkillVM.cs" />
+    <Compile Include="Models\TraitImpactVM.cs" />
     <Compile Include="Models\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

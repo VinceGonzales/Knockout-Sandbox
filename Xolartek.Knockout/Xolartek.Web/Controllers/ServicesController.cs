@@ -164,6 +164,29 @@ namespace Xolartek.Web.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, "success");
             }
         }
+        [HttpPost]
+        [Route("trait/{id:int}")]
+        public HttpResponseMessage AddTrait(int id, List<TraitImpactVM> datalist)
+        {
+            using (Repository repo = new Repository(new XolarDatabase()))
+            {
+                foreach(TraitImpactVM data in datalist)
+                {
+                    Trait trait = repo.GetTraits().FirstOrDefault(t => t.Description.Equals(data.Trait));
+                    if (trait != null)
+                    {
+                        repo.AddTraitImpact(data.Impact, id, trait.Id);
+                    }
+                    else
+                    {
+                        string fail = string.Format("Failed on {0} - {1}", data.Impact, data.Trait);
+                        return Request.CreateResponse(HttpStatusCode.NotFound, fail);
+                    }
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "success");
+            }
+        }
+
         [Route("schematic/{id:int}")]
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         public SchematicVM GetTraits(int id)
