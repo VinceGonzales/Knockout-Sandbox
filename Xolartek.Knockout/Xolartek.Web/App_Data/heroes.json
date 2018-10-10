@@ -83,8 +83,8 @@
       "Rarity": "mythic",
       "Name": "Carbide",
       "ImgUrl": "/content/images/T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L.png",
-      "Stars": 3,
-      "Level": "30",
+      "Stars": 4,
+      "Level": "40",
       "Description": "commando_myth03_sr_t03"
    },
    {
@@ -155,8 +155,8 @@
       "Rarity": "mythic",
       "Name": "Steel Wool Syd",
       "ImgUrl": "/content/images/T-Constructor-HID-Constructor-Myth02-SR-T01-L.png",
-      "Stars": 3,
-      "Level": "30",
+      "Stars": 4,
+      "Level": "40",
       "Description": "constructor_myth02_sr_t03"
    },
    {
@@ -188,15 +188,15 @@
       "Name": "Sergeant Jonesy",
       "ImgUrl": "/content/images/T-Soldier-HID-Commando-010-SR-T01-L.png",
       "Stars": 3,
-      "Level": "30",
+      "Level": "35",
       "Description": "commando_010_sr_t03"
    },
    {
       "Rarity": "legendary",
       "Name": "Urban Assault Sledgehammer",
       "ImgUrl": "/content/images/T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L.png",
-      "Stars": 3,
-      "Level": "30",
+      "Stars": 4,
+      "Level": "40",
       "Description": "commando_gunheadshot_m_v1_roadtrip_sr_t03"
    },
    {
@@ -204,7 +204,7 @@
       "Name": "Trailblaster Buzz",
       "ImgUrl": "/content/images/T-Outlander-HID-Outlander-010-SR-T01-L.png",
       "Stars": 4,
-      "Level": "36",
+      "Level": "40",
       "Description": "outlander_010_sr_t03"
    },
    {
@@ -251,8 +251,8 @@
       "Rarity": "legendary",
       "Name": "Guardian Penny",
       "ImgUrl": "/content/images/T-Constructor-HID-Constructor-Sony-R-T01-L.png",
-      "Stars": 3,
-      "Level": "24",
+      "Stars": 4,
+      "Level": "40",
       "Description": "constructor_sony_sr_t03"
    },
    {
@@ -267,8 +267,8 @@
       "Rarity": "legendary",
       "Name": "Miss Bunny Penny",
       "ImgUrl": "/content/images/T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L.png",
-      "Stars": 1,
-      "Level": "1",
+      "Stars": 2,
+      "Level": "20",
       "Description": "constructor_plasmadamage_easter_sr_t01"
    },
    {
@@ -451,8 +451,8 @@
       "Rarity": "legendary",
       "Name": "Striker A.C.",
       "ImgUrl": "/content/images/T-Outlander-HID-Outlander-PunchDamage-SR-T01-L.png",
-      "Stars": 1,
-      "Level": "1",
+      "Stars": 2,
+      "Level": "11",
       "Description": "outlander_punchdamage_sr_t01"
    },
    {
@@ -499,8 +499,8 @@
       "Rarity": "epic",
       "Name": "Recon Scout Eagle Eye",
       "ImgUrl": "/content/images/T-Outlander-HID-Outlander-008-VR-T01-L.png",
-      "Stars": 1,
-      "Level": "1",
+      "Stars": 3,
+      "Level": "30",
       "Description": "outlander_008_vr_t01"
    },
    {
@@ -515,9 +515,9 @@
       "Rarity": "mythic",
       "Name": "Field Agent Rio",
       "ImgUrl": "/content/images/T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L.png",
-      "Stars": 1,
-      "Level": "7",
-      "Description": "commando_014_wukong_sr_t04"
+      "Stars": 3,
+      "Level": "30",
+      "Description": "T soldier hid 173 athena commando f starfishuniform l"
    }
 ]
 

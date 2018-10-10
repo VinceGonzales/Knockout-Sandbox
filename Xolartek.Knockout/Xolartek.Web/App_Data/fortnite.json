@@ -1,5 +1,110 @@
-[{"classname":"The Dark Viking","name":" Focused Acquisition","description":" Increases chance to find double loot by 6%.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Loot Llama","description":" Consumes a Llama Fragment to deploy a Loot Llama. Whack the Loot Llama with a harvesting tool to get building materials and crafting ingredients before it disappears.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Shock Tower","description":" Consumes a Charge Fragment to place a Shock Tower that pulses every 0.5 seconds, and lasts for 3 seconds. Causes Chain lightning, doing a base of 12 energy damage to enemies within 1.367 tiles, stunning small enemies for .75 seconds. Can stun large enemies after multiple hits.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Seismic Impact","description":" Punch the ground causing it to rupture knocking back medium size enemies and dealing 0.0 energy damage in a 2 tile line that conforms to the world.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Fault Line","description":" Seismic Impact’s cooldown is lowered by 6 seconds.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Sustained Impact","description":" Seismic Impact’s stamina cost is reduced by 15.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Anti-Material Charge","description":" Performs a punch that travels 0.5 tiles, dealing damage to any structure punched, and a base of 90 blunt damage to enemies struck. This punch will knock back smaller enemies.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Long Arm of the Law","description":" Increases the travel distance of Anti-Material Charge to 2 tiles.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Fist of the South Moon","description":" Reduces the cooldown of Anti-Material Charge by 5 seconds.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Charged Fist","description":" Anti-Material Charge can be charged up by holding down the activation key, dealing up to 150% additional damage.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" In the Zone","description":" After 5 hits in a row with a pick axe, gain In the Zone which increases pick axe damage by 24%.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Return To Sender","description":" Seismic Impact returns to its original impact location.","issupport":true,"istactical":false},{"classname":"The Dark Viking","name":" Iron Knuckles","description":" Increases the damage of Anti-Material Charge by an additional 150% against enemies. Also adds 15% damage Vulnerability to enemies for 15 seconds.","issupport":true,"istactical":false},
-{"classname":"The Dark Viking","name":" Punchy","description":" Increases blunt weapon damage & impact by 6%/9%/12%.","issupport":false,"istactical":true},{"classname":"The Dark Viking","name":" Your Move, Creep","description":" DECOY periodically damages enemies within the attraction radius.","issupport":false,"istactical":true}]
+[
+  {
+    "classname": "The Dark Viking",
+    "name": " Focused Acquisition",
+    "description": " Increases chance to find double loot by 6%.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Loot Llama",
+    "description": " Consumes a Llama Fragment to deploy a Loot Llama. Whack the Loot Llama with a harvesting tool to get building materials and crafting ingredients before it disappears.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Shock Tower",
+    "description": " Consumes a Charge Fragment to place a Shock Tower that pulses every 0.5 seconds, and lasts for 3 seconds. Causes Chain lightning, doing a base of 12 energy damage to enemies within 1.367 tiles, stunning small enemies for .75 seconds. Can stun large enemies after multiple hits.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Seismic Impact",
+    "description": " Punch the ground causing it to rupture knocking back medium size enemies and dealing 0.0 energy damage in a 2 tile line that conforms to the world.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Fault Line",
+    "description": " Seismic Impact’s cooldown is lowered by 6 seconds.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Sustained Impact",
+    "description": " Seismic Impact’s stamina cost is reduced by 15.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Anti-Material Charge",
+    "description": " Performs a punch that travels 0.5 tiles, dealing damage to any structure punched, and a base of 90 blunt damage to enemies struck. This punch will knock back smaller enemies.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Long Arm of the Law",
+    "description": " Increases the travel distance of Anti-Material Charge to 2 tiles.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Fist of the South Moon",
+    "description": " Reduces the cooldown of Anti-Material Charge by 5 seconds.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Charged Fist",
+    "description": " Anti-Material Charge can be charged up by holding down the activation key, dealing up to 150% additional damage.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " In the Zone",
+    "description": " After 5 hits in a row with a pick axe, gain In the Zone which increases pick axe damage by 24%.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Return To Sender",
+    "description": " Seismic Impact returns to its original impact location.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Iron Knuckles",
+    "description": " Increases the damage of Anti-Material Charge by an additional 150% against enemies. Also adds 15% damage Vulnerability to enemies for 15 seconds.",
+    "issupport": true,
+    "istactical": false
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Punchy",
+    "description": " Increases blunt weapon damage & impact by 6%/9%/12%.",
+    "issupport": false,
+    "istactical": true
+  },
+  {
+    "classname": "The Dark Viking",
+    "name": " Your Move, Creep",
+    "description": " DECOY periodically damages enemies within the attraction radius.",
+    "issupport": false,
+    "istactical": true
+  }
+]
 
 [{"classname":"Wild Fragment","name":" Focused Acquisition","description":" Increases chance to find double loot by 6%.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Loot Llama","description":" Consumes a Llama Fragment to deploy a Loot Llama. Whack the Loot Llama with a harvesting tool to get building materials and crafting ingredients before it disappears.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" In the Zone","description":" After 5 hits in a row with a pick axe, gain In the Zone which increases pick axe damage by 24%.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Look What I Found!","description":" Start missions with 3 Charge Fragments.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Bear With Me","description":" Increases the duration of TEDDY by 5 seconds.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Phase Shift","description":" Rapidly shifts 1.75 tiles in the direction currently moving. Increases movement speed by 30% for 3 seconds. Max 3 charges.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Double Down","description":" 50% chance to find an additional Charge Fragment when collecting a Fragment.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Phased Out","description":" Reduces the refill time of Phase Shift charges by 3 seconds.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Bearricade","description":" Enemies damaged by TEDDY have movement and attack speed slowed by 30% for 6 seconds.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Anti-Material Charge","description":" Performs a punch that travels 0.5 tiles, dealing damage to any structure punched, and a base of 90 blunt damage to enemies struck. This punch will knock back smaller enemies.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Load Bearing","description":" T.E.D.D.Y.’s damage is increased by 50% if placed with a Fragment.","issupport":true,"istactical":false},{"classname":"Wild Fragment","name":" Impossibility Matrix","description":" Increases the cooldown reduction of T.E.D.D.Y. and the Shock Tower to 50% when using a Charge Fragment.","issupport":true,"istactical":false},
 {"classname":"Wild Fragment","name":" Fleet","description":" Increases movement speed by 6%/9%/12%.","issupport":false,"istactical":true}]
@@ -55,3 +160,5 @@
 [{"classname":"Alchemist","name":" Shinobi","description":" Reduces fall damage taken by 10%. Increases run and sprint speed by 10%.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Smoke Bomb","description":" The Ninja throws down a smoke bomb, creating a cloud that persists for 5 seconds. The cloud slows all enemies inside by 30%, dealing a base of 40 damage every second.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Mantis Leap","description":" Ninja can leap once more while already jumping. Can only be executed once per jump.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Hearty Blade","description":" Every 4th hit with a melee weapon restores 24 base health.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Shadow Stance","description":" After defeating an enemy with a melee weapon or edged damage, the Ninja enters a Shadow Stance for 4 seconds. During Shadow Stance damage resistance is increased by 15%, Mantis Leap costs 60% less energy and the Ninja becomes more difficult to see.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Throwing Stars","description":" The Ninja hurls throwing stars in a straight line. Throws 1 star three times in a quick series, dealing a base of 52 edged weapon damage with each star.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Medicinal Fumes","description":" Smoke Bomb now heals allies who enter the affected area, restoring 19 base health every second.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Shadowier Stance","description":" Increases the damage resistance granted by Shadow Stance to 30%.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Corrosive Stars","description":" Throwing Stars afflict their targets, doing 25% of Throwing Stars damage every second, for 6 seconds. This effect can stack up to 3 times.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Dragon Slash","description":" Ninja springs forward 2 tiles, dealing a base of 95 edged weapon damage to all enemies within 0.5 tiles.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Extra Long Fuse","description":" Increases the duration of Smoke Bomb's persistent cloud effect by 5 seconds.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Corrosive Blade","description":" Critical hits from the Ninja's edged weapons deal 30% of hit damage over time while reducing movement speed of target by 30%.","issupport":true,"istactical":false},{"classname":"Alchemist","name":" Hearty Strikes","description":" Every 4th hit with a melee weapon restores 24 base health.","issupport":false,"istactical":true}]
 
 [{"classname":"Warden","name":" Creative Engineering","description":" Increases build speed by 10%. Reduces building cost by 10%.","issupport":true,"istactical":false},{"classname":"Warden","name":" Bull Rush","description":" The Constructor charges forward 3 tiles, collecting enemies on a shield, knocking them back at the end of the rush or when colliding with a wall. Does a base of 156 blunt physical damage.","issupport":true,"istactical":false},{"classname":"Warden","name":" B.A.S.E.","description":" The BASE alters the matter of connected building pieces. Affected walls will deal a base of 12 energy damage to any enemy that attacks them in melee. Attached structures gain 12% damage resistance. Extends 3 segments from placement.","issupport":true,"istactical":false},{"classname":"Warden","name":" Bull Crush","description":" At the end of Bull Rush, Hardware damage increases by 55% for 10s.","issupport":true,"istactical":false},{"classname":"Warden","name":" Automated Defenses","description":" Increases BASE connectivity by 1 building piece.","issupport":true,"istactical":false},{"classname":"Warden","name":" Kinetic Overload","description":" Critical hits with hardware melee weapons trigger a Kinetic Overload, dealing a base of 140 plasma energy damage and knockback to the target.","issupport":true,"istactical":false},{"classname":"Warden","name":" Hearty Blows","description":" Every 4th hit with a Hardware weapon restores 49 base health to the Constructor.","issupport":true,"istactical":false},{"classname":"Warden","name":" Exit Plan","description":" While inside any BASE, the Constructor's speed and blunt weapon critical hit rate are increased. Increases run speed by 12% and critical hit rate with blunt weapons by 6%.","issupport":true,"istactical":false},{"classname":"Warden","name":" Rushed Rush","description":" Reduces the cooldown of Bull Rush by 6 seconds.","issupport":true,"istactical":false},{"classname":"Warden","name":" Plasma Pulse","description":" Deploys a device which emits exploding Plasma Pulses every 0.125 seconds for 6 seconds. Deals a base of 18 plasma energy damage.","issupport":true,"istactical":false},{"classname":"Warden","name":" Kinetic Overdrive","description":" When Kinetic Overload is triggered, it affects targets within a 0.5 tile radius of the primary target.","issupport":true,"istactical":false},{"classname":"Warden","name":" Base M.D.","description":" The Constructor's BASE regenerates 30 health every 3 seconds while allies are inside.","issupport":true,"istactical":false},{"classname":"Warden","name":" Actuated Attacks","description":" Increases blunt melee damage by 12%/18%/24%.","issupport":false,"istactical":true}]
+
+[{"classname":"Deadly Blade","name":" Shinobi","description":" Reduces fall damage taken by 10%. Increases run and sprint speed by 10%.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Throwing Stars","description":" The Ninja hurls throwing stars in a straight line. Throws 1 star three times in a quick series, dealing a base of 52 edged weapon damage with each star.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Mantis Leap","description":" Ninja can leap once more while already jumping. Can only be executed once per jump.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Corrosive Stars","description":" Throwing Stars afflict their targets, doing 25% of Throwing Stars damage every second, for 6 seconds. This effect can stack up to 3 times.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Rapid Fire","description":" Reduces the cooldown of Throwing Stars to 3 seconds.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Crescent Kick","description":" A quick kick that does a base of 54 damage, 800.0 impact, and stuns for 3 seconds.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Assassination","description":" Dealing Sword damage grants one stack of Assassination, increasing the damage dealt by Swords by 5%. Lasts 5 seconds and stacks up to 5 times.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Anatomy Lessons","description":" Increases edged melee critical rating by 18.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Cascade","description":" The Ninja throws one additional throwing star on the third toss. Throw pattern: 1/1/2.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Dragon Slash","description":" Ninja springs forward 2 tiles, dealing a base of 95 edged weapon damage to all enemies within 0.5 tiles.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Pain Mastery","description":" Assassination stacks now grants a 3% bonus, per stack, to critical hits with edged melee weapons.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Corrosive Blade","description":" Critical hits from the Ninja's edged weapons deal 30% of hit damage over time while reducing movement speed of target by 30%.","issupport":true,"istactical":false},{"classname":"Deadly Blade","name":" Anatomy Lessons","description":" Increased edged melee critical rating by 8/13/18.","issupport":false,"istactical":true},{"classname":"Deadly Blade","name":" Corrosion","description":" Critical hits from melee weapons deal 15% of hit damage every second for 3 seconds while reducing movement speed by 30%.","issupport":false,"istactical":true}]

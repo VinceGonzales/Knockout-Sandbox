@@ -60,10 +60,29 @@ namespace Xolartek.Web.Models
                 .Include(s => s.Picture)
                 .ToList();
         }
+        public List<Xolartek.Core.Fortnite.Schematic> GetSchematics(int id)
+        {
+            return db.Schematics
+                .Where(s => s.WeaponTypeId.Equals(id))
+                .Include(s => s.Materials)
+                .Include(s => s.Traits)
+                .Include(s => s.Picture)
+                .ToList();
+        }
+        public Xolartek.Core.Fortnite.Schematic GetSchematic(int id)
+        {
+            return db.Schematics
+                .Where(s => s.Id.Equals(id))
+                .Include(s => s.Materials)
+                .Include(s => s.Traits)
+                .Include(s => s.Picture)
+                .FirstOrDefault();
+        }
         public List<Xolartek.Core.Fortnite.Hero> GetHeroes()
         {
             return db.Heroes
                 .Include(h => h.Picture)
+                .Include(h => h.Rarity)
                 .ToList();
         }
         public Xolartek.Core.Fortnite.Hero GetHero(int id)
